@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { requireUser } from "@/lib/auth";
+import { requireStudyUser } from "@/lib/auth";
 import { handle } from "@/server/http";
 import { createStudySession } from "@/server/sessions";
 
@@ -17,8 +17,9 @@ const schema = z.object({
 
 export async function POST(request: Request) {
   return handle(async () => {
-    const user = await requireUser();
     const input = schema.parse(await request.json());
+    const user = await requireStudyUser(true);
+    if (user.guest && (input.mode === "MISTAKES" || input.unseenOnly)) throw new Error("UNAUTHENTICATED");
     const test = await createStudySession(user.id, input);
     return { id: test.id };
   });

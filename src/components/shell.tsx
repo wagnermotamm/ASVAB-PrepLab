@@ -1,6 +1,6 @@
 "use client";
 
-import { Menu, Moon, Sun, X } from "lucide-react";
+import { BookOpen, Menu, Moon, Sun, X } from "lucide-react";
 import { useLocale, useTranslations } from "next-intl";
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
@@ -52,12 +52,12 @@ export function Shell({ children }: { children: React.ReactNode }) {
         Skip to content
       </a>
       <header className="sticky top-0 z-40 border-b border-line bg-background/90 backdrop-blur">
-        <div className="mx-auto flex max-w-6xl items-center gap-4 px-4 py-3">
-          <Link href="/" className="font-display text-xl tracking-tight">
-            ASVAB PrepLab
+        <div className="mx-auto flex max-w-7xl items-center gap-4 px-4 py-3">
+          <Link href="/" className="flex shrink-0 items-center gap-2 text-base font-semibold tracking-tight">
+            <span className="grid size-9 place-items-center rounded-xl bg-accent text-accent-foreground"><BookOpen size={19} /></span><span>ASVAB <span className="font-normal">PrepLab</span></span>
           </Link>
           {!exam && (
-            <nav className="ml-4 hidden items-center gap-4 text-sm md:flex" aria-label="Primary">
+            <nav className="ml-4 hidden items-center gap-4 text-sm xl:flex" aria-label="Primary">
               {links.map((link) => (
                 <Link key={link.href} href={link.href} className={pathname === link.href ? "text-accent" : "text-muted hover:text-foreground"}>
                   {link.label}
@@ -107,17 +107,17 @@ export function Shell({ children }: { children: React.ReactNode }) {
               </button>
             )}
             {!exam && !account && (
-              <Link href="/login" className="hidden text-sm md:inline">
+              <Link href="/login" className="btn-secondary hidden text-sm xl:inline-flex">
                 {t("nav.login")}
               </Link>
             )}
-            <button type="button" className="p-2 md:hidden" aria-label="Menu" onClick={() => setOpen((value) => !value)}>
+            <button type="button" className="p-2 xl:hidden" aria-label="Menu" onClick={() => setOpen((value) => !value)}>
               {open ? <X className="size-5" /> : <Menu className="size-5" />}
             </button>
           </div>
         </div>
         {open && !exam && (
-          <nav className="flex flex-col gap-2 border-t border-line px-4 py-3 md:hidden">
+          <nav className="flex flex-col gap-2 border-t border-line px-4 py-3 xl:hidden">
             {links.map((link) => (
               <Link key={link.href} href={link.href} onClick={() => setOpen(false)}>
                 {link.label}
@@ -129,7 +129,7 @@ export function Shell({ children }: { children: React.ReactNode }) {
           </nav>
         )}
       </header>
-      <main id="content" className="mx-auto w-full max-w-6xl flex-1 px-4 py-8">
+      <main id="content" className="mx-auto w-full max-w-7xl flex-1 px-5 py-8 lg:px-8">
         {children}
       </main>
       {!exam && (

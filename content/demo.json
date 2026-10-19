@@ -1,0 +1,749 @@
+[
+  {
+    "externalKey": "wk-0001",
+    "subject": "WK",
+    "stem": "The word \"abundant\" most nearly means",
+    "passage": null,
+    "type": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "origin": "ORIGINAL",
+    "topic": "synonym",
+    "sourceRef": "ASVAB PrepLab original practice item",
+    "diagramSvg": null,
+    "options": [
+      {
+        "text": "plentiful",
+        "isCorrect": true,
+        "diagramSvg": null,
+        "label": "A"
+      },
+      {
+        "text": "limited",
+        "isCorrect": false,
+        "diagramSvg": null,
+        "label": "B"
+      },
+      {
+        "text": "scarce",
+        "isCorrect": false,
+        "diagramSvg": null,
+        "label": "C"
+      },
+      {
+        "text": "empty",
+        "isCorrect": false,
+        "diagramSvg": null,
+        "label": "D"
+      }
+    ],
+    "hints": [
+      {
+        "locale": "en",
+        "type": "STRATEGY",
+        "level": "QUICK",
+        "term": null,
+        "explanation": "Look for the choice with nearly the same meaning. Opposites can be eliminated first."
+      },
+      {
+        "locale": "pt-BR",
+        "type": "STRATEGY",
+        "level": "QUICK",
+        "term": null,
+        "explanation": "Procure a alternativa com quase o mesmo sentido. Os opostos podem ser eliminados primeiro."
+      },
+      {
+        "locale": "es",
+        "type": "STRATEGY",
+        "level": "QUICK",
+        "term": null,
+        "explanation": "Busque la opción con casi el mismo sentido. Los opuestos pueden eliminarse primero."
+      },
+      {
+        "locale": "en",
+        "type": "STRATEGY",
+        "level": "METHOD",
+        "term": null,
+        "explanation": "The target word describes something that is present in great quantity."
+      },
+      {
+        "locale": "pt-BR",
+        "type": "STRATEGY",
+        "level": "METHOD",
+        "term": null,
+        "explanation": "A palavra-alvo descreve algo que é ou faz isto: presente em grande quantidade."
+      },
+      {
+        "locale": "es",
+        "type": "STRATEGY",
+        "level": "METHOD",
+        "term": null,
+        "explanation": "La palabra objetivo describe algo que es o hace esto: presente en gran cantidad."
+      },
+      {
+        "locale": "en",
+        "type": "STRATEGY",
+        "level": "STEP",
+        "term": null,
+        "explanation": "Match that meaning to the choice 'plentiful'."
+      },
+      {
+        "locale": "pt-BR",
+        "type": "STRATEGY",
+        "level": "STEP",
+        "term": null,
+        "explanation": "Associe esse sentido à alternativa 'plentiful'."
+      },
+      {
+        "locale": "es",
+        "type": "STRATEGY",
+        "level": "STEP",
+        "term": null,
+        "explanation": "Relacione ese sentido con la opción 'plentiful'."
+      },
+      {
+        "locale": "en",
+        "type": "VOCABULARY",
+        "level": "QUICK",
+        "term": "abundant",
+        "explanation": "Abundant: present in great quantity."
+      },
+      {
+        "locale": "pt-BR",
+        "type": "VOCABULARY",
+        "level": "QUICK",
+        "term": "abundant",
+        "explanation": "Abundant: presente em grande quantidade."
+      },
+      {
+        "locale": "es",
+        "type": "VOCABULARY",
+        "level": "QUICK",
+        "term": "abundant",
+        "explanation": "Abundant: presente en gran cantidad."
+      }
+    ],
+    "explanations": [
+      {
+        "locale": "en",
+        "fullExplanation": "In this item, \"abundant\" means present in great quantity. The closest choice is \"plentiful\".",
+        "quickMethod": "The target word describes something that is present in great quantity.",
+        "concept": "Synonyms in context",
+        "optionAnalysis": {
+          "A": "In this item, \"abundant\" means present in great quantity. The closest choice is \"plentiful\".",
+          "B": "This choice does not match the meaning of the target word.",
+          "C": "This choice does not match the meaning of the target word.",
+          "D": "This choice does not match the meaning of the target word."
+        }
+      },
+      {
+        "locale": "pt-BR",
+        "fullExplanation": "Nesta questão, \"abundant\" significa presente em grande quantidade. A alternativa mais próxima é \"plentiful\".",
+        "quickMethod": "A palavra-alvo descreve algo que é ou faz isto: presente em grande quantidade.",
+        "concept": "Sinônimos no contexto",
+        "optionAnalysis": {
+          "A": "Nesta questão, \"abundant\" significa presente em grande quantidade. A alternativa mais próxima é \"plentiful\".",
+          "B": "Esta alternativa não corresponde ao sentido da palavra-alvo.",
+          "C": "Esta alternativa não corresponde ao sentido da palavra-alvo.",
+          "D": "Esta alternativa não corresponde ao sentido da palavra-alvo."
+        }
+      },
+      {
+        "locale": "es",
+        "fullExplanation": "En esta pregunta, \"abundant\" significa presente en gran cantidad. La opción más cercana es \"plentiful\".",
+        "quickMethod": "La palabra objetivo describe algo que es o hace esto: presente en gran cantidad.",
+        "concept": "Sinónimos en contexto",
+        "optionAnalysis": {
+          "A": "En esta pregunta, \"abundant\" significa presente en gran cantidad. La opción más cercana es \"plentiful\".",
+          "B": "Esta opción no corresponde al sentido de la palabra objetivo.",
+          "C": "Esta opción no corresponde al sentido de la palabra objetivo.",
+          "D": "Esta opción no corresponde al sentido de la palabra objetivo."
+        }
+      }
+    ]
+  },
+  {
+    "externalKey": "ar-0001",
+    "subject": "AR",
+    "stem": "Owen packs identical supply kits into 3 cartons, with 4 kits in every carton. How many kits is that in all?",
+    "passage": null,
+    "type": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "origin": "ORIGINAL",
+    "topic": "equal-groups",
+    "sourceRef": "ASVAB PrepLab original practice item",
+    "diagramSvg": null,
+    "options": [
+      {
+        "text": "7",
+        "isCorrect": false,
+        "diagramSvg": null,
+        "label": "A"
+      },
+      {
+        "text": "12",
+        "isCorrect": true,
+        "diagramSvg": null,
+        "label": "B"
+      },
+      {
+        "text": "8",
+        "isCorrect": false,
+        "diagramSvg": null,
+        "label": "C"
+      },
+      {
+        "text": "15",
+        "isCorrect": false,
+        "diagramSvg": null,
+        "label": "D"
+      }
+    ],
+    "hints": [
+      {
+        "locale": "en",
+        "type": "STRATEGY",
+        "level": "QUICK",
+        "term": null,
+        "explanation": "Equal groups call for multiplication, not addition."
+      },
+      {
+        "locale": "pt-BR",
+        "type": "STRATEGY",
+        "level": "QUICK",
+        "term": null,
+        "explanation": "Grupos iguais pedem multiplicação, não adição."
+      },
+      {
+        "locale": "es",
+        "type": "STRATEGY",
+        "level": "QUICK",
+        "term": null,
+        "explanation": "Los grupos iguales piden multiplicación, no suma."
+      },
+      {
+        "locale": "en",
+        "type": "STRATEGY",
+        "level": "METHOD",
+        "term": null,
+        "explanation": "Multiply the number of cartons by the number of kits in each carton."
+      },
+      {
+        "locale": "pt-BR",
+        "type": "STRATEGY",
+        "level": "METHOD",
+        "term": null,
+        "explanation": "Multiplique o número de caixas pela quantidade de kits em cada caixa."
+      },
+      {
+        "locale": "es",
+        "type": "STRATEGY",
+        "level": "METHOD",
+        "term": null,
+        "explanation": "Multiplique el número de cajas por la cantidad de kits en cada caja."
+      },
+      {
+        "locale": "en",
+        "type": "STRATEGY",
+        "level": "STEP",
+        "term": null,
+        "explanation": "Compute 3 × 4 = 12."
+      },
+      {
+        "locale": "pt-BR",
+        "type": "STRATEGY",
+        "level": "STEP",
+        "term": null,
+        "explanation": "Calcule 3 × 4 = 12."
+      },
+      {
+        "locale": "es",
+        "type": "STRATEGY",
+        "level": "STEP",
+        "term": null,
+        "explanation": "Calcule 3 × 4 = 12."
+      },
+      {
+        "locale": "en",
+        "type": "VOCABULARY",
+        "level": "QUICK",
+        "term": "identical",
+        "explanation": "Exactly the same; here, every kit matches the others."
+      },
+      {
+        "locale": "pt-BR",
+        "type": "VOCABULARY",
+        "level": "QUICK",
+        "term": "identical",
+        "explanation": "Idêntico: aqui, cada kit é igual aos outros."
+      },
+      {
+        "locale": "es",
+        "type": "VOCABULARY",
+        "level": "QUICK",
+        "term": "identical",
+        "explanation": "Idéntico: aquí, cada kit es igual a los demás."
+      }
+    ],
+    "explanations": [
+      {
+        "locale": "en",
+        "fullExplanation": "3 equal cartons of 4 kits give 3 × 4 = 12 kits.",
+        "quickMethod": "Multiply the number of cartons by the number of kits in each carton.",
+        "concept": "Multiplication of equal groups",
+        "optionAnalysis": {
+          "A": "This value comes from using the wrong operation or stopping after only part of the work.",
+          "B": "3 equal cartons of 4 kits give 3 × 4 = 12 kits.",
+          "C": "This value comes from using the wrong operation or stopping after only part of the work.",
+          "D": "This value comes from using the wrong operation or stopping after only part of the work."
+        }
+      },
+      {
+        "locale": "pt-BR",
+        "fullExplanation": "3 caixas iguais com 4 kits dão 3 × 4 = 12 kits.",
+        "quickMethod": "Multiplique o número de caixas pela quantidade de kits em cada caixa.",
+        "concept": "Multiplicação de grupos iguais",
+        "optionAnalysis": {
+          "A": "Esse valor nasce da operação errada ou de parar antes de terminar o raciocínio.",
+          "B": "3 caixas iguais com 4 kits dão 3 × 4 = 12 kits.",
+          "C": "Esse valor nasce da operação errada ou de parar antes de terminar o raciocínio.",
+          "D": "Esse valor nasce da operação errada ou de parar antes de terminar o raciocínio."
+        }
+      },
+      {
+        "locale": "es",
+        "fullExplanation": "3 cajas iguales con 4 kits dan 3 × 4 = 12 kits.",
+        "quickMethod": "Multiplique el número de cajas por la cantidad de kits en cada caja.",
+        "concept": "Multiplicación de grupos iguales",
+        "optionAnalysis": {
+          "A": "Ese valor sale de la operación equivocada o de detenerse antes de terminar el razonamiento.",
+          "B": "3 cajas iguales con 4 kits dan 3 × 4 = 12 kits.",
+          "C": "Ese valor sale de la operación equivocada o de detenerse antes de terminar el razonamiento.",
+          "D": "Ese valor sale de la operación equivocada o de detenerse antes de terminar el razonamiento."
+        }
+      }
+    ]
+  },
+  {
+    "externalKey": "gs-0001",
+    "subject": "GS",
+    "stem": "Which organelle produces most of the ATP used by a eukaryotic cell?",
+    "passage": null,
+    "type": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "origin": "ORIGINAL",
+    "topic": "life",
+    "sourceRef": "ASVAB PrepLab original practice item",
+    "diagramSvg": null,
+    "options": [
+      {
+        "text": "Mitochondrion",
+        "isCorrect": true,
+        "diagramSvg": null,
+        "label": "A"
+      },
+      {
+        "text": "Nucleus",
+        "isCorrect": false,
+        "diagramSvg": null,
+        "label": "B"
+      },
+      {
+        "text": "Golgi apparatus",
+        "isCorrect": false,
+        "diagramSvg": null,
+        "label": "C"
+      },
+      {
+        "text": "Ribosome",
+        "isCorrect": false,
+        "diagramSvg": null,
+        "label": "D"
+      }
+    ],
+    "hints": [
+      {
+        "locale": "en",
+        "type": "STRATEGY",
+        "level": "QUICK",
+        "term": null,
+        "explanation": "Match the biological structure or process named in the question."
+      },
+      {
+        "locale": "pt-BR",
+        "type": "STRATEGY",
+        "level": "QUICK",
+        "term": null,
+        "explanation": "Associe a estrutura ou o processo biológico pedido na questão."
+      },
+      {
+        "locale": "es",
+        "type": "STRATEGY",
+        "level": "QUICK",
+        "term": null,
+        "explanation": "Relacione la estructura o el proceso biológico que pide la pregunta."
+      },
+      {
+        "locale": "en",
+        "type": "STRATEGY",
+        "level": "METHOD",
+        "term": null,
+        "explanation": "Reject choices that belong to a different organ or that reverse the process."
+      },
+      {
+        "locale": "pt-BR",
+        "type": "STRATEGY",
+        "level": "METHOD",
+        "term": null,
+        "explanation": "Descarte alternativas de outro órgão ou que invertam o processo."
+      },
+      {
+        "locale": "es",
+        "type": "STRATEGY",
+        "level": "METHOD",
+        "term": null,
+        "explanation": "Descarte opciones de otro órgano o que inviertan el proceso."
+      },
+      {
+        "locale": "en",
+        "type": "STRATEGY",
+        "level": "STEP",
+        "term": null,
+        "explanation": "Mitochondria release usable energy from food through cellular respiration."
+      },
+      {
+        "locale": "pt-BR",
+        "type": "STRATEGY",
+        "level": "STEP",
+        "term": null,
+        "explanation": "As mitocôndrias liberam energia utilizável do alimento na respiração celular."
+      },
+      {
+        "locale": "es",
+        "type": "STRATEGY",
+        "level": "STEP",
+        "term": null,
+        "explanation": "Las mitocondrias liberan energía utilizable del alimento en la respiración celular."
+      }
+    ],
+    "explanations": [
+      {
+        "locale": "en",
+        "fullExplanation": "Mitochondria release usable energy from food through cellular respiration.",
+        "quickMethod": "Reject choices that belong to a different organ or that reverse the process.",
+        "concept": "Match the biological structure or process named in the question.",
+        "optionAnalysis": {
+          "A": "Mitochondria release usable energy from food through cellular respiration.",
+          "B": "This choice names a different part, process, or relationship.",
+          "C": "This choice names a different part, process, or relationship.",
+          "D": "This choice names a different part, process, or relationship."
+        }
+      },
+      {
+        "locale": "pt-BR",
+        "fullExplanation": "As mitocôndrias liberam energia utilizável do alimento na respiração celular.",
+        "quickMethod": "Descarte alternativas de outro órgão ou que invertam o processo.",
+        "concept": "Associe a estrutura ou o processo biológico pedido na questão.",
+        "optionAnalysis": {
+          "A": "As mitocôndrias liberam energia utilizável do alimento na respiração celular.",
+          "B": "Esta alternativa aponta outra peça, outro processo ou outra relação.",
+          "C": "Esta alternativa aponta outra peça, outro processo ou outra relação.",
+          "D": "Esta alternativa aponta outra peça, outro processo ou outra relação."
+        }
+      },
+      {
+        "locale": "es",
+        "fullExplanation": "Las mitocondrias liberan energía utilizable del alimento en la respiración celular.",
+        "quickMethod": "Descarte opciones de otro órgano o que inviertan el proceso.",
+        "concept": "Relacione la estructura o el proceso biológico que pide la pregunta.",
+        "optionAnalysis": {
+          "A": "Las mitocondrias liberan energía utilizable del alimento en la respiración celular.",
+          "B": "Esta opción señala otra pieza, otro proceso u otra relación.",
+          "C": "Esta opción señala otra pieza, otro proceso u otra relación.",
+          "D": "Esta opción señala otra pieza, otro proceso u otra relación."
+        }
+      }
+    ]
+  },
+  {
+    "externalKey": "mk-0001",
+    "subject": "MK",
+    "stem": "What is the value of x if 2x − 9 = -5?",
+    "passage": null,
+    "type": "MULTIPLE_CHOICE",
+    "difficulty": "EASY",
+    "origin": "ORIGINAL",
+    "topic": "linear-equation",
+    "sourceRef": "ASVAB PrepLab original practice item",
+    "diagramSvg": null,
+    "options": [
+      {
+        "text": "3",
+        "isCorrect": false,
+        "diagramSvg": null,
+        "label": "A"
+      },
+      {
+        "text": "5",
+        "isCorrect": false,
+        "diagramSvg": null,
+        "label": "B"
+      },
+      {
+        "text": "4",
+        "isCorrect": false,
+        "diagramSvg": null,
+        "label": "C"
+      },
+      {
+        "text": "2",
+        "isCorrect": true,
+        "diagramSvg": null,
+        "label": "D"
+      }
+    ],
+    "hints": [
+      {
+        "locale": "en",
+        "type": "STRATEGY",
+        "level": "QUICK",
+        "term": null,
+        "explanation": "Undo the operations in reverse order. Isolate the variable."
+      },
+      {
+        "locale": "pt-BR",
+        "type": "STRATEGY",
+        "level": "QUICK",
+        "term": null,
+        "explanation": "Desfaça as operações na ordem inversa. Isole a variável."
+      },
+      {
+        "locale": "es",
+        "type": "STRATEGY",
+        "level": "QUICK",
+        "term": null,
+        "explanation": "Deshaga las operaciones en orden inverso. Aísle la variable."
+      },
+      {
+        "locale": "en",
+        "type": "STRATEGY",
+        "level": "METHOD",
+        "term": null,
+        "explanation": "Move the constant term to the other side, then divide by the coefficient of x."
+      },
+      {
+        "locale": "pt-BR",
+        "type": "STRATEGY",
+        "level": "METHOD",
+        "term": null,
+        "explanation": "Passe o termo constante para o outro lado e divida pelo coeficiente de x."
+      },
+      {
+        "locale": "es",
+        "type": "STRATEGY",
+        "level": "METHOD",
+        "term": null,
+        "explanation": "Pase el término constante al otro lado y divida entre el coeficiente de x."
+      },
+      {
+        "locale": "en",
+        "type": "STRATEGY",
+        "level": "STEP",
+        "term": null,
+        "explanation": "From 2x + (-9) = -5, x = 2. Check: 2×2 + (-9) = -5."
+      },
+      {
+        "locale": "pt-BR",
+        "type": "STRATEGY",
+        "level": "STEP",
+        "term": null,
+        "explanation": "De 2x + (-9) = -5, x = 2. Confira: 2×2 + (-9) = -5."
+      },
+      {
+        "locale": "es",
+        "type": "STRATEGY",
+        "level": "STEP",
+        "term": null,
+        "explanation": "De 2x + (-9) = -5, x = 2. Compruebe: 2×2 + (-9) = -5."
+      }
+    ],
+    "explanations": [
+      {
+        "locale": "en",
+        "fullExplanation": "Subtracting -9 from -5 and dividing by 2 gives x = 2.",
+        "quickMethod": "Move the constant term to the other side, then divide by the coefficient of x.",
+        "concept": "Linear equations",
+        "optionAnalysis": {
+          "A": "This value comes from using the wrong operation or stopping after only part of the work.",
+          "B": "This value comes from using the wrong operation or stopping after only part of the work.",
+          "C": "This value comes from using the wrong operation or stopping after only part of the work.",
+          "D": "Subtracting -9 from -5 and dividing by 2 gives x = 2."
+        }
+      },
+      {
+        "locale": "pt-BR",
+        "fullExplanation": "Subtrair -9 de -5 e dividir por 2 dá x = 2.",
+        "quickMethod": "Passe o termo constante para o outro lado e divida pelo coeficiente de x.",
+        "concept": "Equações do primeiro grau",
+        "optionAnalysis": {
+          "A": "Esse valor nasce da operação errada ou de parar antes de terminar o raciocínio.",
+          "B": "Esse valor nasce da operação errada ou de parar antes de terminar o raciocínio.",
+          "C": "Esse valor nasce da operação errada ou de parar antes de terminar o raciocínio.",
+          "D": "Subtrair -9 de -5 e dividir por 2 dá x = 2."
+        }
+      },
+      {
+        "locale": "es",
+        "fullExplanation": "Restar -9 de -5 y dividir entre 2 da x = 2.",
+        "quickMethod": "Pase el término constante al otro lado y divida entre el coeficiente de x.",
+        "concept": "Ecuaciones lineales",
+        "optionAnalysis": {
+          "A": "Ese valor sale de la operación equivocada o de detenerse antes de terminar el razonamiento.",
+          "B": "Ese valor sale de la operación equivocada o de detenerse antes de terminar el razonamiento.",
+          "C": "Ese valor sale de la operación equivocada o de detenerse antes de terminar el razonamiento.",
+          "D": "Restar -9 de -5 y dividir entre 2 da x = 2."
+        }
+      }
+    ]
+  },
+  {
+    "externalKey": "mc-0001",
+    "subject": "MC",
+    "stem": "In a first-class lever, where is the fulcrum?",
+    "passage": null,
+    "type": "MULTIPLE_CHOICE",
+    "difficulty": "MEDIUM",
+    "origin": "ORIGINAL",
+    "topic": "mech",
+    "sourceRef": "ASVAB PrepLab original practice item",
+    "diagramSvg": null,
+    "options": [
+      {
+        "text": "Between the effort and the load",
+        "isCorrect": true,
+        "diagramSvg": null,
+        "label": "A"
+      },
+      {
+        "text": "At one end, with the effort between the fulcrum and the load",
+        "isCorrect": false,
+        "diagramSvg": null,
+        "label": "B"
+      },
+      {
+        "text": "Nowhere, because a first-class lever has no pivot",
+        "isCorrect": false,
+        "diagramSvg": null,
+        "label": "C"
+      },
+      {
+        "text": "At one end, with the load between the fulcrum and the effort",
+        "isCorrect": false,
+        "diagramSvg": null,
+        "label": "D"
+      }
+    ],
+    "hints": [
+      {
+        "locale": "en",
+        "type": "STRATEGY",
+        "level": "QUICK",
+        "term": null,
+        "explanation": "Look for the class of machine or the formula that fits the described setup."
+      },
+      {
+        "locale": "pt-BR",
+        "type": "STRATEGY",
+        "level": "QUICK",
+        "term": null,
+        "explanation": "Procure a classe de máquina ou a fórmula que combina com a situação descrita."
+      },
+      {
+        "locale": "es",
+        "type": "STRATEGY",
+        "level": "QUICK",
+        "term": null,
+        "explanation": "Busque la clase de máquina o la fórmula que corresponde a la situación descrita."
+      },
+      {
+        "locale": "en",
+        "type": "STRATEGY",
+        "level": "METHOD",
+        "term": null,
+        "explanation": "Balance the moments, or divide force by area, or compare gear sizes, depending on the setup."
+      },
+      {
+        "locale": "pt-BR",
+        "type": "STRATEGY",
+        "level": "METHOD",
+        "term": null,
+        "explanation": "Equilibre os momentos, divida força por área ou compare o tamanho das engrenagens, conforme o caso."
+      },
+      {
+        "locale": "es",
+        "type": "STRATEGY",
+        "level": "METHOD",
+        "term": null,
+        "explanation": "Equilibre los momentos, divida fuerza entre área o compare el tamaño de los engranajes, según el caso."
+      },
+      {
+        "locale": "en",
+        "type": "STRATEGY",
+        "level": "STEP",
+        "term": null,
+        "explanation": "A seesaw and a crowbar used over a pivot are first-class levers. The fulcrum is between the two forces."
+      },
+      {
+        "locale": "pt-BR",
+        "type": "STRATEGY",
+        "level": "STEP",
+        "term": null,
+        "explanation": "Uma gangorra e um pé de cabra sobre um apoio são alavancas de primeira classe. O fulcro fica entre as duas forças."
+      },
+      {
+        "locale": "es",
+        "type": "STRATEGY",
+        "level": "STEP",
+        "term": null,
+        "explanation": "Un balancín y una palanca usada sobre un apoyo son palancas de primera clase. El fulcro queda entre las dos fuerzas."
+      }
+    ],
+    "explanations": [
+      {
+        "locale": "en",
+        "fullExplanation": "A seesaw and a crowbar used over a pivot are first-class levers. The fulcrum is between the two forces.",
+        "quickMethod": "Balance the moments, or divide force by area, or compare gear sizes, depending on the setup.",
+        "concept": "Look for the class of machine or the formula that fits the described setup.",
+        "optionAnalysis": {
+          "A": "A seesaw and a crowbar used over a pivot are first-class levers. The fulcrum is between the two forces.",
+          "B": "This choice names a different part, process, or relationship.",
+          "C": "This choice names a different part, process, or relationship.",
+          "D": "This choice names a different part, process, or relationship."
+        }
+      },
+      {
+        "locale": "pt-BR",
+        "fullExplanation": "Uma gangorra e um pé de cabra sobre um apoio são alavancas de primeira classe. O fulcro fica entre as duas forças.",
+        "quickMethod": "Equilibre os momentos, divida força por área ou compare o tamanho das engrenagens, conforme o caso.",
+        "concept": "Procure a classe de máquina ou a fórmula que combina com a situação descrita.",
+        "optionAnalysis": {
+          "A": "Uma gangorra e um pé de cabra sobre um apoio são alavancas de primeira classe. O fulcro fica entre as duas forças.",
+          "B": "Esta alternativa aponta outra peça, outro processo ou outra relação.",
+          "C": "Esta alternativa aponta outra peça, outro processo ou outra relação.",
+          "D": "Esta alternativa aponta outra peça, outro processo ou outra relação."
+        }
+      },
+      {
+        "locale": "es",
+        "fullExplanation": "Un balancín y una palanca usada sobre un apoyo son palancas de primera clase. El fulcro queda entre las dos fuerzas.",
+        "quickMethod": "Equilibre los momentos, divida fuerza entre área o compare el tamaño de los engranajes, según el caso.",
+        "concept": "Busque la clase de máquina o la fórmula que corresponde a la situación descrita.",
+        "optionAnalysis": {
+          "A": "Un balancín y una palanca usada sobre un apoyo son palancas de primera clase. El fulcro queda entre las dos fuerzas.",
+          "B": "Esta opción señala otra pieza, otro proceso u otra relación.",
+          "C": "Esta opción señala otra pieza, otro proceso u otra relación.",
+          "D": "Esta opción señala otra pieza, otro proceso u otra relación."
+        }
+      }
+    ]
+  }
+]

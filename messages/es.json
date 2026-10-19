@@ -188,5 +188,136 @@
     "contact": "Envía un mensaje. Queda guardado para el administrador de esta instalación.",
     "sources": "Estructura: officialasvab.com, página What to Expect, actualizada el 6 de octubre de 2026. Los ejemplos oficiales son material controlado de examen y no se copian aquí. Los PDF de docs son de terceros y no se publican a los estudiantes.",
     "sent": "El mensaje se guardó en este servidor."
+  },
+  "experience": {
+    "eyebrow": "TU PRÓXIMO PASO EMPIEZA AQUÍ",
+    "heroTitle": "Menos dudas. Más preparación.",
+    "heroBody": "Prepárate para el ASVAB con práctica: responde en inglés, entiende cada solución en tu idioma y gana confianza con cada pregunta.",
+    "simulate": "Simular prueba completa",
+    "practice": "Elegir qué estudiar",
+    "free": "Empieza sin crear cuenta",
+    "heroCaption": "Un poco de práctica. Un camino más claro.",
+    "whatTitle": "¿Qué es el ASVAB?",
+    "whatBody": "El Armed Services Vocational Aptitude Battery evalúa habilidades verbales, matemáticas, científicas y técnicas. Las Fuerzas Armadas de EE. UU. usan sus resultados para la elegibilidad y la clasificación de puestos.",
+    "questions": "preguntas",
+    "sections": "secciones",
+    "time": "minutos en total",
+    "structureNote": "Formato CAT sin preguntas experimentales. Cada sección tiene su propio límite de tiempo. Preguntas originales de práctica; no es un examen ni una puntuación oficial.",
+    "waysEyebrow": "TU ESTUDIO, TU RITMO",
+    "waysTitle": "¿Cómo quieres practicar hoy?",
+    "fullBody": "Sigue las 10 secciones en orden, con cronómetro y resultados al final. Consultar una explicación marca el intento como asistido.",
+    "categoryBody": "Selecciona una, varias o todas las materias. Alternamos las preguntas entre los temas elegidos, con corrección inmediata y ayuda cuando la necesites.",
+    "recommended": "Un buen punto de partida",
+    "howTitle": "Lee. Intenta. Entiende.",
+    "step1Title": "Elige tu camino",
+    "step1Body": "Haz el simulacro completo o enfócate en las materias que quieres mejorar.",
+    "step2Title": "Responde en inglés",
+    "step2Body": "Elige una respuesta. Pulsa una palabra subrayada para ver su significado en tu idioma.",
+    "step3Title": "Entiende el razonamiento",
+    "step3Body": "Usa el botón de interrogación para ver una explicación breve y clara de cómo llegar a la respuesta.",
+    "demoTitle": "Pruébalo. Tus primeras cinco preguntas.",
+    "demoBody": "Cinco materias diferentes. Sin cronómetro, sin registro. Explora las palabras, responde y descubre por qué.",
+    "check": "Comprobar respuesta",
+    "next": "Siguiente pregunta",
+    "solve": "¿Cómo resolver esta pregunta?",
+    "close": "Cerrar",
+    "restart": "Repetir las cinco",
+    "finished": "¡Primer paso completado!",
+    "result": "respuestas correctas",
+    "continue": "Seguir practicando",
+    "guideTitle": "Conoce cada materia",
+    "guideBody": "Descubre qué se evalúa, dónde aparece en la prueba y cómo abordar cada tema.",
+    "accountTitle": "Practica libremente. Sigue tu progreso con una cuenta.",
+    "accountBody": "No necesitas iniciar sesión para practicar o hacer un simulacro. Entra antes de empezar para guardar las preguntas respondidas, repasar errores y seguir tu progreso.",
+    "createAccount": "Crear cuenta",
+    "login": "Iniciar sesión",
+    "guestNote": "La práctica como visitante es temporal y está disponible en este navegador hasta 24 horas. Inicia sesión antes de una nueva sesión para guardarla en tu historial personal.",
+    "selectAll": "Seleccionar todas",
+    "clear": "Limpiar selección",
+    "afqtOnly": "Materias del AFQT",
+    "selected": "seleccionadas",
+    "categoryHelp": "Sobre esta materia",
+    "selectionTitle": "Prepara tu sesión",
+    "selectionBody": "Elige las materias. Intercalamos las preguntas para practicar distintas habilidades.",
+    "length": "Duración de la sesión",
+    "balanced": "Las preguntas se distribuyen de forma equilibrada, con al menos una por materia. Tú eliges los temas; nosotros las preguntas.",
+    "settings": "Opciones de práctica",
+    "start": "Empezar práctica",
+    "starting": "Preparando tus preguntas…",
+    "chooseOne": "Selecciona al menos una materia.",
+    "sessionSummary": "Tu sesión",
+    "interleaved": "Materias alternadas y equilibradas",
+    "minutes": "minutos",
+    "position": "Sección",
+    "afqtNote": "Forma parte del AFQT, usado para la elegibilidad de alistamiento.",
+    "careerNote": "Contribuye a los índices de aptitud usados para clasificar puestos militares; los requisitos varían por rama.",
+    "tip": "Consejo de estudio",
+    "simTitle": "Practica al ritmo de la prueba.",
+    "simBody": "Elige un formato. Cada sección tiene su propio cronómetro y la revisión aparece al final. No necesitas una cuenta.",
+    "catTitle": "Formato CAT completo",
+    "catBody": "Selección fija de preguntas originales en el orden oficial. No permite volver después de responder. Este modo no adapta la dificultad.",
+    "adaptiveTitle": "Práctica adaptativa",
+    "adaptiveBody": "La dificultad cambia entre fácil, media y difícil. Es una aproximación educativa, no el algoritmo oficial del CAT.",
+    "paperTitle": "Formato en papel",
+    "paperBody": "225 preguntas en 9 secciones. Revisa respuestas dentro de la sección actual antes de avanzar.",
+    "helpWarning": "Consultar vocabulario o soluciones marca este simulacro como asistido.",
+    "reviewTitle": "Revisa tus respuestas",
+    "noAnswer": "Sin responder",
+    "answerLabel": "Tu respuesta",
+    "correctAnswer": "Respuesta correcta",
+    "allFormats": "Conocer los formatos de prueba",
+    "subjectImageAlt": "Libros de estudio, formas geométricas y lápiz en tonos verde azulado y marfil",
+    "subjects": {
+      "GS": {
+        "title": "Ciencias generales",
+        "body": "Biología, química, física y ciencias de la Tierra.",
+        "tip": "Relaciona conceptos científicos con ejemplos cotidianos."
+      },
+      "AR": {
+        "title": "Razonamiento aritmético",
+        "body": "Problemas escritos con tasas, proporciones, porcentajes y operaciones básicas.",
+        "tip": "Anota los datos, identifica lo que se pide y comprueba las unidades."
+      },
+      "WK": {
+        "title": "Vocabulario",
+        "body": "Significados de palabras y sinónimos en contexto.",
+        "tip": "Compara significados, no el parecido visual entre palabras."
+      },
+      "PC": {
+        "title": "Comprensión de textos",
+        "body": "Información, ideas principales y conclusiones apoyadas por textos breves.",
+        "tip": "Busca evidencia en el texto sin añadir suposiciones externas."
+      },
+      "MK": {
+        "title": "Conocimiento matemático",
+        "body": "Álgebra, geometría, ecuaciones y principios matemáticos.",
+        "tip": "Simplifica paso a paso y sustituye el resultado para comprobarlo."
+      },
+      "EI": {
+        "title": "Electrónica",
+        "body": "Circuitos eléctricos, corriente, tensión y componentes electrónicos.",
+        "tip": "Distingue corriente, tensión y resistencia antes de usar una fórmula."
+      },
+      "AI": {
+        "title": "Conocimiento automotriz",
+        "body": "Motores, sistemas de vehículos, mantenimiento y componentes.",
+        "tip": "Entiende la función de cada pieza y a qué sistema pertenece."
+      },
+      "SI": {
+        "title": "Herramientas y taller",
+        "body": "Herramientas, materiales, técnicas de taller y procedimientos seguros.",
+        "tip": "Asocia cada herramienta con su función y presta atención a la seguridad."
+      },
+      "MC": {
+        "title": "Comprensión mecánica",
+        "body": "Fuerzas, movimiento, palancas, poleas, engranajes y máquinas simples.",
+        "tip": "Dibuja las fuerzas y sigue la dirección del movimiento."
+      },
+      "AO": {
+        "title": "Ensamblaje de objetos",
+        "body": "Razonamiento espacial: cómo encajan las piezas para formar un conjunto.",
+        "tip": "Sigue esquinas y bordes; gira las piezas mentalmente sin reflejarlas."
+      }
+    }
   }
 }
