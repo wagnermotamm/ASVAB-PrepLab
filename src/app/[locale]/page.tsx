@@ -20,7 +20,10 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
     </section>
     <section className="exam-overview">
       <div className="max-w-xl"><h2 className="text-xl font-semibold">{t("whatTitle")}</h2><p className="mt-2 text-sm leading-relaxed text-muted">{t("whatBody")}</p><Link href="/about-asvab" className="mt-3 inline-flex items-center gap-2 text-sm font-medium text-accent">{t("allFormats")}<ArrowRight size={14} /></Link></div>
-      <div className="grid grid-cols-3 gap-5">{[["135", "questions"], ["10", "sections"], ["197", "time"]].map(([number,key]) => <div key={key}><strong className="text-3xl font-medium tracking-tight md:text-4xl">{number}</strong><span className="mt-1 block max-w-24 text-xs text-muted">{t(key)}</span></div>)}</div>
+      <div className="stat-groups">
+        <div className="stat-card"><span className="eyebrow">{t("officialLabel")}</span><div className="mt-3 grid grid-cols-3 gap-3">{[["135", "questions"], ["10", "sections"], ["197", "time"]].map(([number,key]) => <div key={key}><strong className="text-2xl font-medium tracking-tight md:text-3xl">{number}</strong><span className="mt-1 block text-xs text-muted">{t(key)}</span></div>)}</div></div>
+        <div className="stat-card is-bank"><span className="eyebrow">{t("bankLabel")}</span><strong className="mt-3 block text-4xl font-medium tracking-tight md:text-5xl">1.000</strong><span className="mt-1 block text-xs text-muted">{t("bankQuestions")}</span><p className="mt-3 text-sm leading-relaxed">{t("bankNote")}</p></div>
+      </div>
       <p className="col-span-full text-xs leading-relaxed text-muted">{t("structureNote")} <a className="underline" href="https://www.officialasvab.com/applicants/cat-asvab/" target="_blank" rel="noreferrer">Official ASVAB ↗</a></p>
     </section>
     <section id="study-paths"><div className="section-heading"><div><span className="eyebrow">{t("waysEyebrow")}</span><h2 className="mt-3 text-3xl md:text-4xl">{t("waysTitle")}</h2></div></div>

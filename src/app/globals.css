@@ -83,11 +83,14 @@ a.btn-primary, button.btn-primary { background: var(--accent); color: var(--acce
 .home-sections { display: grid; gap: 76px; padding: 12px 0 28px; }
 .hero-grid { display: grid; grid-template-columns: 1.08fr 1fr; align-items: center; gap: 44px; }
 .hero-copy { padding: 25px 0; }
-.hero-title { font-size: clamp(2.9rem,5vw,4.5rem); letter-spacing: -.055em; line-height: 1.04; font-weight: 600; max-width: 600px; margin-top: 24px; }
-.hero-description { margin-top: 24px; max-width: 490px; line-height: 1.75; font-size: 1rem; color: var(--muted); }
+.hero-title { font-size: clamp(2.15rem,3.6vw,3.15rem); letter-spacing: -.04em; line-height: 1.12; font-weight: 600; max-width: 620px; margin-top: 20px; }
+.hero-description { margin-top: 16px; max-width: 520px; line-height: 1.65; font-size: .95rem; color: var(--muted); }
 .hero-art { position: relative; align-self: stretch; min-height: 420px; border-radius: 24px; overflow: hidden; background: #eee7dc; }
 .hero-art-caption { position: absolute; bottom: 20px; left: 20px; right: 20px; display: flex; align-items: center; gap: 12px; background: var(--card); padding: 16px; border: 1px solid var(--line); border-radius: 16px; box-shadow: 0 8px 32px #132a3220; }
-.exam-overview { margin-top: -32px; display: grid; grid-template-columns: 1.4fr 1fr; align-items: center; gap: 24px 60px; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); padding: 28px 0; }
+.exam-overview { margin-top: -32px; display: grid; grid-template-columns: .85fr 1.15fr; align-items: center; gap: 24px 36px; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); padding: 28px 0; }
+.stat-groups { display: grid; grid-template-columns: 1.15fr .85fr; gap: 12px; }
+.stat-card { border: 1px solid var(--line); border-radius: 16px; padding: 16px 18px; background: var(--card); }
+.stat-card.is-bank { background: color-mix(in srgb, var(--accent) 12%, var(--card)); border-color: color-mix(in srgb, var(--accent) 40%, var(--line)); }
 .section-heading { display: flex; justify-content: space-between; align-items: end; gap: 20px; margin-bottom: 28px; }
 .path-card { display: block; border: 1px solid var(--line); background: var(--card); border-radius: 20px; padding: 30px; transition: transform .2s, box-shadow .2s; }
 .path-card:hover { transform: translateY(-3px); box-shadow: 0 12px 30px #143c3510; }
@@ -116,6 +119,6 @@ a.path-dark { background: #143e40; color: #f6fcf7; border-color: #143e40; }
 .study-sidebar { position: sticky; top: 90px; border: 1px solid var(--line); border-radius: 18px; background: var(--card); padding: 24px; }
 .progress-track { height: 5px; background: var(--line); border-radius: 4px; overflow: hidden; }
 .progress-track > div { height: 100%; background: var(--accent); transition: width .2s; }
-@media (max-width: 900px) { .hero-grid { gap: 26px; } .hero-title { font-size: 3.4rem; } .demo-section { gap: 24px; padding: 25px; } .study-layout { grid-template-columns: minmax(0,1fr); } .study-sidebar { position: static; } .account-banner { flex-direction: column; align-items: start; } }
-@media (max-width: 640px) { .home-sections { gap: 48px; } .hero-grid, .demo-section, .exam-overview { grid-template-columns: minmax(0,1fr); } .hero-copy { padding: 4px 0; } .hero-title { font-size: 3.1rem; margin-top: 20px; } .hero-art { min-height: 300px; max-height: 340px; } .hero-art-caption { bottom: 14px; left: 14px; right: 14px; padding: 12px; } .hero-description { margin-top: 20px; } .exam-overview { margin-top: -10px; gap: 24px; } .section-heading { align-items: start; flex-direction: column; } .path-card { padding: 24px; } .demo-section { padding: 18px; gap: 25px; } .demo-intro { padding: 4px; } .demo-question { padding: 20px; } .account-banner { padding: 24px; } }
+@media (max-width: 900px) { .hero-grid { gap: 26px; } .hero-title { font-size: 2.6rem; } .demo-section { gap: 24px; padding: 25px; } .study-layout { grid-template-columns: minmax(0,1fr); } .study-sidebar { position: static; } .account-banner { flex-direction: column; align-items: start; } }
+@media (max-width: 640px) { .home-sections { gap: 48px; } .hero-grid, .demo-section, .exam-overview, .stat-groups { grid-template-columns: minmax(0,1fr); } .hero-copy { padding: 4px 0; } .hero-title { font-size: 2.15rem; margin-top: 16px; } .hero-art { min-height: 300px; max-height: 340px; } .hero-art-caption { bottom: 14px; left: 14px; right: 14px; padding: 12px; } .hero-description { margin-top: 20px; } .exam-overview { margin-top: -10px; gap: 24px; } .section-heading { align-items: start; flex-direction: column; } .path-card { padding: 24px; } .demo-section { padding: 18px; gap: 25px; } .demo-intro { padding: 4px; } .demo-question { padding: 20px; } .account-banner { padding: 24px; } }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { transition: none !important; animation: none !important; } }
