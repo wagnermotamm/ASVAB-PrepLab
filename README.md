@@ -1,104 +1,94 @@
 # ASVAB PrepLab
 
-Plataforma independente de preparação para o ASVAB. As questões ficam em inglês americano. A interface, as dicas e as explicações seguem o idioma da rota: `/en`, `/br` ou `/es`.
+**Practice Smarter. Prepare with Confidence.**
 
-O ASVAB PrepLab é uma plataforma educacional independente e não é afiliado, endossado nem operado pelo Departamento de Defesa dos Estados Unidos nem pelo programa oficial de aplicação do ASVAB.
+A free, independent study app for the Armed Services Vocational Aptitude Battery (ASVAB). Practice the test's 10 subject areas, work through timed simulations, and review original questions with explanations in English, Portuguese, or Spanish. You can practice without an account; sign in to save your progress.
 
-## O que está no banco
+[Start locally](#getting-started) · [Compare the test formats](#official-test-formats)
 
-O banco público validado contém **1.000 questões originais** (`ORIGINAL`), geradas por `scripts/generate_bank.py` e conferidas por `scripts/validate_bank.py`.
+> ASVAB PrepLab is an independent educational project. It is not affiliated with or endorsed by the U.S. Department of Defense or the official ASVAB testing program.
 
-| Matéria | Questões |
-|---|---:|
-| General Science | 120 |
-| Arithmetic Reasoning | 120 |
-| Word Knowledge | 120 |
-| Paragraph Comprehension | 100 |
-| Mathematics Knowledge | 120 |
-| Electronics Information | 100 |
-| Auto Information | 80 |
-| Shop Information | 80 |
-| Mechanical Comprehension | 80 |
-| Assembling Objects | 80 |
+## The ASVAB and the AFQT
 
-Questões oficiais publicadas no banco: **0**. O site oficial trata os itens de prova como material controlado. A página de estrutura foi consultada em 18 de outubro de 2026 (página atualizada em 6 de outubro de 2026) e só a estrutura foi usada.
+The ASVAB is an aptitude test used for military enlistment and career qualification. It has 10 subtests. The **AFQT is not a separate exam**: it is a percentile score calculated from Arithmetic Reasoning, Mathematics Knowledge, Word Knowledge, and Paragraph Comprehension. The other ASVAB subtests help determine military job qualifications.
 
-Os PDFs em `docs/` não são publicados aos estudantes. A importação grava uma quarentena local para o administrador.
+| Subtest | Focus |
+| --- | --- |
+| General Science (GS) | Physical and biological sciences |
+| Arithmetic Reasoning (AR) | Arithmetic word problems |
+| Word Knowledge (WK) | Word meanings, context, and synonyms |
+| Paragraph Comprehension (PC) | Information in written passages |
+| Mathematics Knowledge (MK) | High-school mathematics |
+| Electronics Information (EI) | Electricity and electronics |
+| Auto Information (AI) | Automobile technology |
+| Shop Information (SI) | Tools, shop terminology, and practices |
+| Mechanical Comprehension (MC) | Mechanical and physical principles |
+| Assembling Objects (AO) | How parts fit together to form an object |
 
-## Contas locais
+## Official test formats
 
-- Estudante: `student@preplab.local` / `PrepLab-Student-2026`
-- Administrador: `admin@preplab.local` / `PrepLab-Admin-2026`
+The official ASVAB is offered as a computer-adaptive test (CAT-ASVAB) and a paper-and-pencil test (P&P-ASVAB). The CAT adapts question difficulty to responses. The official fact sheet lists 135 scored questions and 197 minutes of section time limits for the CAT, and 225 questions and 149 minutes for P&P. Most examinees finish the CAT in about 1.5 hours; the P&P test takes about 3 hours.
 
-## Instalação local
+| Format | Questions | Section time limits | Sections |
+| --- | ---: | ---: | ---: |
+| CAT-ASVAB | 135 scored | 197 min total | 10 |
+| P&P-ASVAB | 225 | 149 min total | 9; AI and SI are combined as AS |
 
-É preciso Node.js 20+, Python 3 com `pymupdf` e Docker.
+PrepLab's full timed practice follows the published question counts and section time limits. Its adaptive mode is a simplified practice approximation that adjusts among easy, medium, and hard items; it does not reproduce the official CAT's item-selection or scoring algorithms. Paper-format practice follows the published P&P counts and timing. PrepLab's AFQT indicator is based on practice accuracy in the four AFQT subjects. It does not predict or reproduce an official AFQT percentile or enlistment score.
+
+## What PrepLab includes
+
+- **1,000 original practice questions** across all 10 ASVAB subject areas. No official ASVAB questions are reproduced in the local question bank.
+- Practice by subject, full timed and simplified adaptive simulations, and a paper-format simulation.
+- Vocabulary help, hints, and step-by-step explanations in English, Portuguese, and Spanish.
+- Optional accounts for saved history, missed-question review, favorites, and a progress dashboard.
+
+These are study tools, not official test forms or score reports. The local adaptive practice is a difficulty-step approximation, and the AFQT indicator is a practice accuracy measure.
+
+## Screenshots
+
+Captured from the running app:
+
+![ASVAB PrepLab home page](docs/screenshots/homepage.jpg)
+
+*The home page introduces the study options and includes a five-question sample.*
+
+![Subject selection page](docs/screenshots/practice-selection.jpg)
+
+*Choose a subject or select several areas for focused practice.*
+
+![Practice question with vocabulary and solution help](docs/screenshots/question-explanation.jpg)
+
+*A sample question with a clickable vocabulary definition and an optional solution hint.*
+
+## Getting started
+
+Requirements: **Node.js 20 or later**, Python 3, Docker, and Docker Compose. Python is used to generate the question bank during seeding. PyMuPDF is optional and is only needed for the PDF quarantine-import tool. PostgreSQL runs on port **5432**; Next.js runs at **http://localhost:3000**.
+
+In PowerShell, from the repository directory:
 
 ```powershell
-cd ASVAB-PrepLab
-copy .env.example .env
+Copy-Item .env.example .env
 npm install
-pip install pymupdf
 npm run db:up
 npm run db:deploy
 npm run db:seed
 npm run dev
 ```
 
-Abra `http://localhost:3000/br`.
+Open [http://localhost:3000/en](http://localhost:3000/en). The interface is also available at `/br` and `/es`. Keep `.env` private and replace its placeholder `AUTH_SECRET` before deployment.
 
-`db:seed` regrava `content/bank.json` e insere apenas chaves `externalKey` que ainda não existem. Não apaga respostas de usuários.
+## Project layout and stack
 
-## Importar PDFs
+- `src/app/` — localized pages and API routes; `src/components/` — study and exam interface.
+- `src/lib/` — exam logic and shared utilities; `prisma/` — database schema and migrations.
+- `content/` — question bank, sample questions, and vocabulary; `messages/` — translations; `scripts/` — bank generation and validation.
 
-```powershell
-npm run import:pdfs
-```
+Built with Next.js 15, React 19, TypeScript 5, Prisma 6, and PostgreSQL 16.
 
-O comando lê `docs/`, escreve `content/quarantine.json` (não versionado) e `relatorios/importacao.md` (somente contagens). O administrador também pode disparar o mesmo fluxo em `/br/admin`. Nenhum item de PDF entra como questão validada.
+## Official references
 
-## Backup
-
-```powershell
-npm run db:backup
-docker compose exec db pg_dump -U preplab asvab > backup-asvab.sql
-```
-
-## Testes
-
-```powershell
-npm test
-npm run test:bank
-npm run lint
-```
-
-## Implantação
-
-1. Suba um PostgreSQL e defina `DATABASE_URL` e um `AUTH_SECRET` com pelo menos 32 caracteres.
-2. Em HTTPS, defina `COOKIE_SECURE=true`. Em `http://localhost`, deixe essa variável ausente.
-3. `npm run db:deploy`
-4. `npm run db:seed` na primeira instalação.
-5. `npm run build` e `npm start`.
-
-Não há envio de e-mail. O formulário de contato grava a mensagem no banco.
-
-## Funcionalidades
-
-- Rotas `/en`, `/br` e `/es`, com o idioma guardado no cookie do next-intl e, para quem está logado, no perfil.
-- Página inicial, páginas institucionais e demonstração da dica da palavra *abundant*.
-- Prática por matéria, banco completo em blocos de até 20 questões inéditas, revisão de erros com repetição espaçada.
-- CAT-ASVAB sem itens experimentais (135 questões, relógios por seção), prática adaptativa declarada como aproximação, e estrutura em papel (225 questões, 149 minutos).
-- Dicas de vocabulário e três níveis de estratégia. No simulado elas começam desligadas. Ligá-las marca o resultado como assistido.
-- O gabarito não vai no JSON da questão enquanto o simulado está em andamento.
-- Painel com totais reais do usuário e indicador de treino do AFQT, marcado como não oficial.
-- Administração: volume, duplicatas, cadastro em revisão e importação em quarentena.
-
-## Limitações
-
-- Não há questões oficiais liberadas no banco. Um simulado “somente oficiais” recusa a sessão em vez de completar com itens originais.
-- A adaptação de dificuldade é um degrau fácil/médio/difícil. Não é o algoritmo psicométrico do CAT-ASVAB.
-- O indicador AFQT é a precisão nas quatro matérias da sessão. Não é um percentil oficial.
-- Os PDFs comerciais e o arquivo com metadados USAREC não foram republicados.
-- A revisão gramatical do inglês é a checagem do gerador, não um revisor humano de cada uma das 1.000 questões.
-- O cronômetro de prática por matéria usa cerca de um minuto por questão. Os tempos oficiais valem para os simulados CAT e em papel.
-- Esta instalação não envia e-mail.
+- [Official ASVAB — CAT-ASVAB format and timing](https://www.officialasvab.com/applicants/cat-asvab/)
+- [Official ASVAB Fact Sheet — subtests, formats, lengths, and scores](https://www.officialasvab.com/wp-content/uploads/2025/04/ASVAB-Fact_Sheet.pdf)
+- [Official ASVAB — sample questions](https://www.officialasvab.com/applicants/sample-questions/)
+- [Official ASVAB — test-preparation disclaimer](https://www.officialasvab.com/applicants/asvab-test-preparation-disclaimer/)
