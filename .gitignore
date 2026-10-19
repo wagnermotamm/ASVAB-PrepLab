@@ -1,0 +1,17 @@
+node_modules
+.next
+out
+dist
+.env
+.env.local
+*.log
+content/quarantine.json
+docs/*.pdf
+docs/**/*.pdf
+coverage
+__pycache__/
+*.pyc
+prisma/*.db
+.DS_Store
+tsconfig.tsbuildinfo
+next-env.d.ts

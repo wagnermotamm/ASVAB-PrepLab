@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  --background: #f3efe6;
+  --foreground: #17212b;
+  --card: #fffdf8;
+  --muted: #5d6b76;
+  --line: #e3d9c6;
+  --accent: #0f6e6e;
+  --accent-foreground: #f4fffe;
+  --brass: #9a6410;
+  --danger: #9f2d2d;
+  --ok: #1d7a46;
+}
+
+.dark {
+  --background: #0e141b;
+  --foreground: #ebe6dc;
+  --card: #17202a;
+  --muted: #a9b4be;
+  --line: #2c3a48;
+  --accent: #3dcec6;
+  --accent-foreground: #062221;
+  --brass: #e4b65d;
+  --danger: #ffb4b4;
+  --ok: #8ee0b2;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-brass: var(--brass);
+  --color-danger: var(--danger);
+  --color-ok: var(--ok);
+  --font-sans: "Outfit", "Segoe UI", sans-serif;
+  --font-display: "Fraunces", Georgia, serif;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}
+h1, h2, h3 { font-family: var(--font-display); letter-spacing: -0.03em; }
+a { color: inherit; }
+button, input, select, textarea { font: inherit; }
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+.term {
+  cursor: pointer;
+  border-bottom: 1px dashed var(--brass);
+  background: color-mix(in srgb, var(--brass) 12%, transparent);
+  border-radius: 0.2rem;
+}
+.term:hover, .term:focus-visible { background: color-mix(in srgb, var(--brass) 24%, transparent); }
+.sr-only {
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0;
+}

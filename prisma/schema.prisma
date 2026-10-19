@@ -1,0 +1,357 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum Role {
+  STUDENT
+  ADMIN
+}
+
+enum Subject {
+  GS
+  AR
+  WK
+  PC
+  MK
+  EI
+  AI
+  SI
+  MC
+  AO
+  AS
+}
+
+enum QuestionType {
+  MULTIPLE_CHOICE
+  SPATIAL
+}
+
+enum Difficulty {
+  EASY
+  MEDIUM
+  HARD
+}
+
+enum Origin {
+  OFFICIAL_RELEASED
+  PDF_BASED
+  ORIGINAL
+}
+
+enum ValidationStatus {
+  DRAFT
+  PENDING_REVIEW
+  REJECTED
+  VALIDATED
+}
+
+enum HintType {
+  VOCABULARY
+  STRATEGY
+}
+
+enum HintLevel {
+  QUICK
+  METHOD
+  STEP
+}
+
+enum TestMode {
+  PRACTICE_SUBJECT
+  FULL_CAT
+  CAT_ADAPTIVE
+  PAPER_PENCIL
+  QUESTION_BANK
+  MISTAKES
+}
+
+enum TestStatus {
+  IN_PROGRESS
+  COMPLETED
+  ABANDONED
+}
+
+model User {
+  id           String   @id @default(cuid())
+  name         String
+  email        String   @unique
+  passwordHash String
+  role         Role     @default(STUDENT)
+  locale       String   @default("en")
+  preferences  Json     @default("{}")
+  createdAt    DateTime @default(now())
+
+  tests      Test[]
+  answers    UserAnswer[]
+  states     UserQuestionState[]
+  progress   UserProgress[]
+  contacts   ContactMessage[]
+  auditLogs  AuditLog[]
+}
+
+model Source {
+  id            String    @id @default(cuid())
+  kind          String
+  name          String
+  url           String?
+  fileName      String?
+  license       String
+  licenseStatus String
+  verifiedAt    DateTime?
+  notes         String    @db.Text
+  questions     Question[]
+  candidates    ImportCandidate[]
+  reports       ImportReport[]
+}
+
+model Question {
+  id                 String           @id @default(cuid())
+  externalKey        String           @unique
+  subject            Subject
+  stem               String           @db.Text
+  passage            String?          @db.Text
+  type               QuestionType     @default(MULTIPLE_CHOICE)
+  difficulty         Difficulty
+  origin             Origin
+  topic              String
+  sourceId           String?
+  sourcePage         Int?
+  sourceRef          String?
+  validationStatus   ValidationStatus @default(VALIDATED)
+  rejectionReason    String?
+  stemHash           String
+  normalizedStem     String
+  diagramSvg         String?          @db.Text
+  createdAt          DateTime         @default(now())
+  updatedAt          DateTime         @updatedAt
+
+  source       Source?              @relation(fields: [sourceId], references: [id])
+  options      QuestionOption[]
+  hints        QuestionHint[]
+  explanations QuestionExplanation[]
+  testItems    TestQuestion[]
+  answers      UserAnswer[]
+  states       UserQuestionState[]
+
+  @@index([subject, validationStatus, origin, difficulty])
+  @@index([stemHash])
+  @@index([normalizedStem])
+}
+
+model QuestionOption {
+  id         String  @id @default(cuid())
+  questionId String
+  label      String
+  text       String  @db.Text
+  isCorrect  Boolean @default(false)
+  order      Int
+  diagramSvg String? @db.Text
+
+  question Question     @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  answers  UserAnswer[]
+  picked   TestQuestion[] @relation("SelectedOption")
+
+  @@index([questionId])
+}
+
+model QuestionHint {
+  id          String    @id @default(cuid())
+  questionId  String
+  term        String?
+  startIndex  Int?
+  endIndex    Int?
+  locale      String
+  type        HintType
+  level       HintLevel
+  explanation String    @db.Text
+
+  question Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+
+  @@index([questionId, locale, level])
+}
+
+model QuestionExplanation {
+  id              String @id @default(cuid())
+  questionId      String
+  locale          String
+  fullExplanation String @db.Text
+  quickMethod     String @db.Text
+  concept         String
+  optionAnalysis  Json
+
+  question Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+
+  @@unique([questionId, locale])
+}
+
+model Test {
+  id             String     @id @default(cuid())
+  userId         String
+  mode           TestMode
+  status         TestStatus @default(IN_PROGRESS)
+  config         Json
+  assisted       Boolean    @default(false)
+  currentIndex   Int        @default(0)
+  currentSection Int        @default(0)
+  startedAt      DateTime   @default(now())
+  completedAt    DateTime?
+  scoreSummary   Json?
+
+  user     User          @relation(fields: [userId], references: [id], onDelete: Cascade)
+  sections TestSection[]
+  items    TestQuestion[]
+  answers  UserAnswer[]
+
+  @@index([userId, status, mode])
+}
+
+model TestSection {
+  id            String    @id @default(cuid())
+  testId        String
+  subject       Subject
+  order         Int
+  questionCount Int
+  timeLimitSec  Int
+  startedAt     DateTime?
+  deadlineAt    DateTime?
+  endedAt       DateTime?
+  timeSpentSec  Int       @default(0)
+
+  test  Test           @relation(fields: [testId], references: [id], onDelete: Cascade)
+  items TestQuestion[]
+
+  @@index([testId, order])
+}
+
+model TestQuestion {
+  id               String    @id @default(cuid())
+  testId           String
+  sectionId        String?
+  questionId       String
+  order            Int
+  servedDifficulty Difficulty
+  shownAt          DateTime?
+  answeredAt       DateTime?
+  timeSpentMs      Int       @default(0)
+  selectedOptionId String?
+  flagged          Boolean   @default(false)
+  hintsUsed        Json      @default("{}")
+
+  test           Test            @relation(fields: [testId], references: [id], onDelete: Cascade)
+  section        TestSection?    @relation(fields: [sectionId], references: [id], onDelete: Cascade)
+  question       Question        @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  selectedOption QuestionOption? @relation("SelectedOption", fields: [selectedOptionId], references: [id])
+
+  @@index([testId, order])
+  @@index([questionId])
+}
+
+model UserAnswer {
+  id         String   @id @default(cuid())
+  userId     String
+  questionId String
+  testId     String?
+  optionId   String?
+  isCorrect  Boolean
+  timeSpentMs Int     @default(0)
+  hintsUsed  Json     @default("{}")
+  answeredAt DateTime @default(now())
+
+  user     User            @relation(fields: [userId], references: [id], onDelete: Cascade)
+  question Question        @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  test     Test?           @relation(fields: [testId], references: [id], onDelete: SetNull)
+  option   QuestionOption? @relation(fields: [optionId], references: [id], onDelete: SetNull)
+
+  @@index([userId, questionId, answeredAt])
+  @@index([testId])
+}
+
+model UserQuestionState {
+  userId          String
+  questionId      String
+  favorite        Boolean   @default(false)
+  flagged         Boolean   @default(false)
+  correctCount    Int       @default(0)
+  incorrectCount  Int       @default(0)
+  hintCount       Int       @default(0)
+  lastCorrect     Boolean?
+  lastAnsweredAt  DateTime?
+  ease            Float     @default(2.5)
+  intervalDays    Int       @default(0)
+  nextReviewAt    DateTime?
+  lapses          Int       @default(0)
+
+  user     User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  question Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+
+  @@id([userId, questionId])
+  @@index([userId, nextReviewAt])
+  @@index([userId, favorite])
+}
+
+model UserProgress {
+  userId       String
+  subject      Subject
+  correct      Int      @default(0)
+  incorrect    Int      @default(0)
+  timeSpentMs  Int      @default(0)
+  updatedAt    DateTime @updatedAt
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@id([userId, subject])
+}
+
+model ImportCandidate {
+  id         String   @id @default(cuid())
+  sourceId   String
+  page       Int?
+  subjectGuess String?
+  stemText   String?  @db.Text
+  stemHash   String
+  status     String
+  reason     String
+  detectedAt DateTime @default(now())
+
+  source Source @relation(fields: [sourceId], references: [id], onDelete: Cascade)
+
+  @@index([sourceId, status])
+  @@index([stemHash])
+}
+
+model ImportReport {
+  id        String   @id @default(cuid())
+  sourceId  String?
+  summary   Json
+  createdAt DateTime @default(now())
+
+  source Source? @relation(fields: [sourceId], references: [id])
+}
+
+model ContactMessage {
+  id        String   @id @default(cuid())
+  userId    String?
+  name      String
+  email     String
+  message   String   @db.Text
+  createdAt DateTime @default(now())
+
+  user User? @relation(fields: [userId], references: [id], onDelete: SetNull)
+}
+
+model AuditLog {
+  id        String   @id @default(cuid())
+  userId    String?
+  action    String
+  detail    Json
+  createdAt DateTime @default(now())
+
+  user User? @relation(fields: [userId], references: [id], onDelete: SetNull)
+
+  @@index([createdAt])
+}
