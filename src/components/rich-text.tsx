@@ -27,7 +27,7 @@ export function RichText({
             key={`${part}-${index}`}
             type="button"
             className="term"
-            onClick={(event) => onTerm(term, event.currentTarget.getBoundingClientRect())}
+            onClick={(event) => { event.stopPropagation(); onTerm(term, event.currentTarget.getBoundingClientRect()); }}
           >
             {part}
           </button>

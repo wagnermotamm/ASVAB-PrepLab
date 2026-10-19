@@ -1,3 +1,5 @@
+import { interleaveSubjects } from "@/lib/study-selection";
+import { questionVocabulary } from "@/lib/vocabulary";
 import { Prisma, type Difficulty, type Origin, type Subject, type TestMode } from "@prisma/client";
 import {
   AFQT_SUBJECTS,
@@ -111,7 +113,7 @@ export async function createStudySession(userId: string, input: {
   });
   const decision = poolDecision(origins, availableRows.length, Math.min(count, availableRows.length || count));
   if (availableRows.length === 0) throw new AppError(decision.ok ? "POOL_SHORT" : decision.code, 409, { available: 0, needed: count });
-  const picked = shuffle(availableRows).slice(0, count);
+  const picked = interleaveSubjects(shuffle(availableRows), shuffle(subjects) as SubjectCode[], Math.max(count, subjects.length));
   const minutes = input.timer ? Math.max(5, picked.length) : 0;
   const created = await prisma.test.create({
     data: {
@@ -225,6 +227,7 @@ async function pickAdaptiveQuestion(pool: SubjectCode[], difficulty: DifficultyC
 }
 
 export async function getSessionView(userId: string, testId: string, locale: string) {
+  await loadTest(userId, testId); // Check ownership before any clock mutation.
   await ensureClock(testId);
   await expireIfNeeded(userId, testId);
   await ensureClock(testId);
@@ -315,9 +318,7 @@ function present(test: Awaited<ReturnType<typeof loadTest>>, locale: string) {
   const now = new Date();
   const expired = Boolean(section?.deadlineAt && section.deadlineAt.getTime() <= now.getTime());
   const question = item?.question;
-  const terms = question
-    ? [...new Set(question.hints.filter((hint) => hint.type === "VOCABULARY" && hint.term).map((hint) => hint.term as string))]
-    : [];
+  const terms = question ? Object.keys(questionVocabulary(question)) : [];
   const revealed = question && item?.selectedOptionId && (config.feedback === "immediate" || test.status === "COMPLETED")
     ? reveal(question, locale)
     : null;
@@ -639,15 +640,15 @@ async function finishTest(testId: string, userId: string, now: Date) {
   });
 }
 
-export async function useHint(userId: string, testId: string, locale: string, input: { kind: "VOCABULARY" | "STRATEGY"; term?: string; level?: "QUICK" | "METHOD" | "STEP"; enable?: boolean }) {
+export async function useHint(userId: string, testId: string, locale: string, input: { kind: "VOCABULARY" | "STRATEGY" | "SOLUTION"; term?: string; level?: "QUICK" | "METHOD" | "STEP"; enable?: boolean }) {
   const test = await loadTest(userId, testId);
   if (test.status !== "IN_PROGRESS") throw new AppError("TEST_CLOSED", 409);
   const config = { ...(test.config as Record<string, unknown>) };
   let assisted = test.assisted;
   if (!config.hints) {
-    if (!input.enable || !simulationModes(test.mode)) throw new AppError("HINTS_DISABLED", 403);
+    if (!input.enable) throw new AppError("HINTS_DISABLED", 403);
     config.hints = true;
-    assisted = true;
+    assisted = simulationModes(test.mode);
   } else if (simulationModes(test.mode)) {
     assisted = true;
   }
@@ -658,10 +659,16 @@ export async function useHint(userId: string, testId: string, locale: string, in
   let explanation = "";
 
   if (input.kind === "VOCABULARY") {
-    const hint = item.question.hints.find((entry) => entry.type === "VOCABULARY" && entry.locale === language && entry.term?.toLowerCase() === input.term?.toLowerCase());
-    if (!hint) throw new AppError("HINT_NOT_FOUND", 404);
-    explanation = hint.explanation;
-    used.terms = [...new Set([...(used.terms ?? []), hint.term ?? input.term ?? ""])];
+    const term = input.term?.toLowerCase() ?? "";
+    const entry = questionVocabulary(item.question)[term];
+    if (!entry) throw new AppError("HINT_NOT_FOUND", 404);
+    explanation = entry[language] ?? entry.en;
+    used.terms = [...new Set([...(used.terms ?? []), term])];
+  } else if (input.kind === "SOLUTION") {
+    const entry = item.question.explanations.find(row => row.locale === language);
+    if (!entry) throw new AppError("HINT_NOT_FOUND", 404);
+    explanation = [entry.quickMethod, entry.fullExplanation].filter(Boolean).join("\n\n");
+    used.step = true;
   } else {
     const level = input.level ?? "QUICK";
     if (level === "METHOD" && !used.quick) throw new AppError("HINT_SEQUENCE", 409);

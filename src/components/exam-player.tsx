@@ -1,5 +1,6 @@
 "use client";
 
+import { HelpCircle } from "lucide-react";
 import { useLocale, useTranslations } from "next-intl";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { Link, useRouter } from "@/i18n/navigation";
@@ -12,6 +13,8 @@ import { ResultsView } from "./results-view";
 type Option = { id: string; label: string; text: string; diagramSvg: string | null };
 type View = {
   id: string;
+  guest?: boolean;
+  review: { order: number; subject: string; stem: string; selected: string | null; correct: string | null; isCorrect: boolean; explanation: string }[];
   mode: string;
   status: string;
   assisted: boolean;
@@ -31,6 +34,7 @@ type View = {
 
 export function ExamPlayer({ id }: { id: string }) {
   const t = useTranslations();
+  const x = useTranslations("experience");
   const locale = useLocale();
   const router = useRouter();
   const [view, setView] = useState<View | null>(null);
@@ -100,7 +104,7 @@ export function ExamPlayer({ id }: { id: string }) {
         body: JSON.stringify({ locale, ...body }),
       });
       if ("status" in data) {
-        setView(data);
+        setView({ ...data, guest: view?.guest });
         setChoice(data.selectedOptionId);
       }
       return data;
@@ -115,14 +119,25 @@ export function ExamPlayer({ id }: { id: string }) {
 
   async function openTerm(term: string) {
     const data = await post("hint", { kind: "VOCABULARY", term, enable: !view?.hintsEnabled });
-    if (data && "explanation" in data) setPopover({ term, text: String((data as { explanation?: string }).explanation ?? "") });
+    if (data && "explanation" in data) {
+      setPopover({ term, text: String((data as { explanation?: string }).explanation ?? "") });
+      setView(current => current ? { ...current, hintsEnabled: true, assisted: Boolean(data.assisted) } : current);
+    }
   }
 
   async function openLevel(level: "QUICK" | "METHOD" | "STEP") {
     const data = await post("hint", { kind: "STRATEGY", level, enable: !view?.hintsEnabled });
     if (data && "explanation" in data) {
       setLevels((current) => ({ ...current, [level]: String((data as { explanation?: string }).explanation ?? "") }));
-      if (view) setView({ ...view, hintsEnabled: true, assisted: true });
+      if (view) setView({ ...view, hintsEnabled: true, assisted: Boolean(data.assisted) });
+    }
+  }
+
+  async function openSolution() {
+    const data = await post("hint", { kind: "SOLUTION", enable: true });
+    if (data && "explanation" in data) {
+      setLevels(current => ({ ...current, SOLUTION: String(data.explanation) }));
+      setView(current => current ? { ...current, hintsEnabled: true, assisted: Boolean(data.assisted) } : current);
     }
   }
 
@@ -138,7 +153,7 @@ export function ExamPlayer({ id }: { id: string }) {
   useEffect(() => {
     function onKey(event: KeyboardEvent) {
       const tag = (event.target as HTMLElement | null)?.tagName;
-      if (tag === "INPUT" || tag === "TEXTAREA") return;
+      if (tag === "INPUT" || tag === "TEXTAREA" || tag === "SELECT" || event.altKey || event.ctrlKey || event.metaKey || busy) return;
       if (event.key === "Escape") {
         setPopover(null);
         setZoom(null);
@@ -158,16 +173,18 @@ export function ExamPlayer({ id }: { id: string }) {
   });
 
   if (!view) return <p>{error || t("common.loading")}</p>;
-  if (view.status === "COMPLETED" && view.summary) return <ResultsView summary={view.summary} assisted={view.assisted} />;
+  if (view.status === "COMPLETED" && view.summary) return <div className="space-y-8"><ResultsView summary={view.summary} assisted={view.assisted} />{view.guest && <div className="help-panel"><p>{x("guestNote")}</p><Link href="/register" className="mt-3 inline-block font-semibold text-accent">{x("createAccount")} ↗</Link></div>}<section><h2 className="mb-4 text-2xl">{x("reviewTitle")}</h2>{view.review?.map(item => <details key={item.order} className="mb-3 rounded-xl border border-line bg-card p-4"><summary className="cursor-pointer">{item.order + 1}. {item.stem} <span className={item.isCorrect ? "text-ok" : "text-danger"}>{t(item.isCorrect ? "exam.correct" : "exam.incorrect")}</span></summary><p className="mt-3 text-sm">{x("answerLabel")}: {item.selected ?? x("noAnswer")}</p><p className="mt-2 text-sm font-medium">{x("correctAnswer")}: {item.correct}</p><p className="mt-3 text-sm leading-relaxed text-muted">{item.explanation}</p></details>)}</section></div>;
 
-  const subject = view.section?.subject ?? view.question?.subject ?? "";
+  const subject = view.question?.subject ?? view.section?.subject ?? "";
   const clock = left === null ? null : `${Math.floor(Math.max(0, left) / 60000)}:${String(Math.ceil(Math.max(0, left) / 1000) % 60).padStart(2, "0")}`;
 
   return (
     <div className="mx-auto max-w-3xl">
+      {view.guest && <p className="mb-5 rounded-xl border border-line bg-card px-4 py-3 text-xs leading-relaxed text-muted">{x("guestNote")} <Link href="/login" className="font-semibold text-accent">{x("login")}</Link></p>}
+      <div className="progress-track mb-5" role="progressbar" aria-label={t("exam.progress")} aria-valuenow={view.index} aria-valuemin={0} aria-valuemax={view.total}><div style={{ width: `${view.index / view.total * 100}%` }} /></div>
       <div className="flex flex-wrap items-center justify-between gap-3 text-sm text-muted">
         <p>
-          {subject} · {SUBJECT_NAMES[subject] ?? subject}
+          {subject} · {x.has(`subjects.${subject}.title`) ? x(`subjects.${subject}.title`) : SUBJECT_NAMES[subject] ?? subject}
         </p>
         <p>
           {t("exam.progress")} {Math.min(view.total, view.index + 1)} / {view.total}
@@ -176,7 +193,7 @@ export function ExamPlayer({ id }: { id: string }) {
       </div>
       {view.section?.expired && <p className="mt-3 text-danger">{t("exam.expired")}</p>}
       {view.question && (
-        <article className="mt-4 rounded-3xl border border-line bg-card p-5">
+        <article className="mt-4 rounded-2xl border border-line bg-card p-5 md:p-8">
           {view.question.passage && (
             <p className="mb-4 leading-relaxed">
               <RichText text={view.question.passage} terms={view.question.terms} onTerm={(term) => void openTerm(term)} />
@@ -185,6 +202,9 @@ export function ExamPlayer({ id }: { id: string }) {
           <h1 className="text-2xl leading-snug">
             <RichText text={view.question.stem} terms={view.question.terms} onTerm={(term) => void openTerm(term)} />
           </h1>
+          <button type="button" className="help-button mt-3" disabled={busy} aria-expanded={Boolean(levels.SOLUTION)} onClick={() => void openSolution()}><HelpCircle size={18} />{x("solve")}</button>
+          {levels.SOLUTION && <div className="help-panel" role="status">{levels.SOLUTION}</div>}
+          {!view.hintsEnabled && <p className="mt-1 text-xs text-muted">{x("helpWarning")}</p>}
           {view.question.diagramSvg && (
             <figure className="mt-4">
               <div className="max-w-md" dangerouslySetInnerHTML={{ __html: view.question.diagramSvg }} />
@@ -198,19 +218,10 @@ export function ExamPlayer({ id }: { id: string }) {
               const selected = choice === option.id;
               const correct = view.revealed?.correctOptionId === option.id;
               return (
-                <button
-                  key={option.id}
-                  type="button"
-                  role="radio"
-                  aria-checked={selected}
-                  disabled={Boolean(view.revealed)}
-                  className={`rounded-2xl border px-4 py-3 text-left ${selected ? "border-accent" : "border-line"} ${correct ? "border-ok" : ""}`}
-                  onClick={() => setChoice(option.id)}
-                >
-                  <span className="mr-2 text-muted">{option.label || String.fromCharCode(65 + index)}.</span>
-                  {option.text}
-                  {option.diagramSvg && <span className="mt-2 block max-w-xs" dangerouslySetInnerHTML={{ __html: option.diagramSvg }} />}
-                </button>
+                <div key={option.id} onClick={() => { if (!view.revealed && !busy) setChoice(option.id); }} className={`answer-row ${selected ? "is-selected" : ""} ${correct ? "is-correct" : ""} ${view.revealed && selected && !correct ? "is-incorrect" : ""}`}>
+                  <button type="button" role="radio" aria-checked={selected} aria-label={`${option.label}. ${option.text}`} disabled={Boolean(view.revealed) || busy} className="answer-choice" onClick={() => setChoice(option.id)}>{option.label || String.fromCharCode(65 + index)}</button>
+                  <div className="flex-1 py-3 pr-4"><RichText text={option.text} terms={view.question!.terms} onTerm={term => void openTerm(term)} />{option.diagramSvg && <span className="mt-2 block max-w-xs" dangerouslySetInnerHTML={{ __html: option.diagramSvg }} />}</div>
+                </div>
               );
             })}
           </div>
@@ -242,7 +253,7 @@ export function ExamPlayer({ id }: { id: string }) {
         </article>
       )}
       {popover && (
-        <div className="mt-3 rounded-2xl border border-line bg-background p-4" role="dialog" aria-label={popover.term}>
+        <div className="help-panel" role="status" aria-label={popover.term}>
           <div className="flex justify-between gap-3">
             <strong>{popover.term}</strong>
             <button type="button" onClick={() => setPopover(null)}>
@@ -255,7 +266,7 @@ export function ExamPlayer({ id }: { id: string }) {
       <div className="mt-4 flex flex-wrap gap-2">
         {view.hintsEnabled ? (
           (["QUICK", "METHOD", "STEP"] as const).map((level, index) => (
-            <button key={level} type="button" className="rounded-full border border-line px-3 py-2 text-sm" onClick={() => void openLevel(level)}>
+            <button key={level} type="button" className="chip" disabled={busy || (level === "METHOD" && !levels.QUICK) || (level === "STEP" && !levels.METHOD)} onClick={() => void openLevel(level)}>
               {t(`exam.hint${index + 1}`)}
             </button>
           ))
@@ -270,10 +281,10 @@ export function ExamPlayer({ id }: { id: string }) {
           </button>
         )}
         <button type="button" className="rounded-full bg-accent px-4 py-2 text-sm text-accent-foreground" disabled={!choice || busy} onClick={() => void submit()}>
-          {t("common.next")}
+          {view.revealed || view.feedback === "end" ? t("common.next") : x("check")}
         </button>
       </div>
-      {Object.entries(levels).map(([level, text]) => (
+      {Object.entries(levels).filter(([level]) => level !== "SOLUTION").map(([level, text]) => (
         <p key={level} className="mt-3 rounded-2xl bg-card p-4 text-sm">
           {text}
         </p>
@@ -296,8 +307,8 @@ export function ExamPlayer({ id }: { id: string }) {
       <p className="mt-4 text-xs text-muted">{t("exam.keys")}</p>
       {view.assisted && <p className="mt-2 text-sm text-brass">{t("simulator.assisted")}</p>}
       <p className="mt-6">
-        <Link href="/dashboard" className="text-sm text-muted">
-          {t("nav.dashboard")}
+        <Link href={view.guest ? "/practice" : "/dashboard"} className="text-sm text-muted">
+          {view.guest ? x("continue") : t("nav.dashboard")}
         </Link>
       </p>
       {zoom && (

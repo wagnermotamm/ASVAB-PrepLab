@@ -188,5 +188,136 @@
     "contact": "Send a note. It is stored for the administrator of this installation.",
     "sources": "Structure: officialasvab.com, What to Expect, updated 6 October 2026. Sample items on the official site are controlled testing materials and are not copied here. PDFs in docs are third-party files and are not published to students.",
     "sent": "Your message was saved on this server."
+  },
+  "experience": {
+    "eyebrow": "YOUR NEXT CHAPTER STARTS HERE",
+    "heroTitle": "Less guessing. More understanding.",
+    "heroBody": "Prepare for the ASVAB with real practice: answer in English, understand each solution in your language, and build confidence one question at a time.",
+    "simulate": "Simulate the full test",
+    "practice": "Choose what to study",
+    "free": "Start without an account",
+    "heroCaption": "A little practice. A clearer path.",
+    "whatTitle": "What is the ASVAB?",
+    "whatBody": "The Armed Services Vocational Aptitude Battery assesses verbal, math, science and technical skills. The U.S. military uses its scores for enlistment eligibility and job classification.",
+    "questions": "questions",
+    "sections": "sections",
+    "time": "minutes in total",
+    "structureNote": "CAT format without experimental items. Each section has its own time limit. Original practice questions; this is not an official exam or score.",
+    "waysEyebrow": "YOUR STUDY, YOUR PACE",
+    "waysTitle": "How do you want to practice today?",
+    "fullBody": "Follow the sequence of all 10 sections, with a timer and results at the end. Explanations are available on request and mark your attempt as assisted.",
+    "categoryBody": "Select one, several or all subjects. We alternate questions across your selection, with immediate feedback and help whenever you need it.",
+    "recommended": "A good place to start",
+    "howTitle": "Read. Try. Understand.",
+    "step1Title": "Choose your route",
+    "step1Body": "Practice the full test or focus on the subjects you want to improve.",
+    "step2Title": "Answer in English",
+    "step2Body": "Choose an answer. Click an underlined word to see its meaning in your language.",
+    "step3Title": "Learn the reasoning",
+    "step3Body": "Use the question-mark button for a short, clear explanation of how to reach the answer.",
+    "demoTitle": "Try it. Your first five questions.",
+    "demoBody": "Five different subjects. No timer, no account. Explore the words, answer and see why.",
+    "check": "Check answer",
+    "next": "Next question",
+    "solve": "How do I solve this?",
+    "close": "Close",
+    "restart": "Try the five again",
+    "finished": "First step complete!",
+    "result": "correct answers",
+    "continue": "Keep practicing",
+    "guideTitle": "Get to know each subject",
+    "guideBody": "See what is assessed, where it appears in the test and how to approach it.",
+    "accountTitle": "Practice freely. Keep your progress with an account.",
+    "accountBody": "No login is needed to practice or take a mock test. Sign in before starting to keep your answered-question history, review mistakes and track your progress.",
+    "createAccount": "Create an account",
+    "login": "Sign in",
+    "guestNote": "Guest practice is temporary and stays available in this browser for up to 24 hours. Sign in before a new session to save it to your personal history.",
+    "selectAll": "Select all",
+    "clear": "Clear selection",
+    "afqtOnly": "AFQT subjects",
+    "selected": "selected",
+    "categoryHelp": "About this subject",
+    "selectionTitle": "Build your practice session",
+    "selectionBody": "Choose your subjects. We mix the questions so you can practice switching between skills.",
+    "length": "Session length",
+    "balanced": "Questions are distributed evenly across your subjects, with at least one per subject. You choose the themes; we choose the questions.",
+    "settings": "Practice settings",
+    "start": "Start practice",
+    "starting": "Preparing your questions…",
+    "chooseOne": "Select at least one subject.",
+    "sessionSummary": "Your session",
+    "interleaved": "Balanced, alternating subjects",
+    "minutes": "minutes",
+    "position": "Section",
+    "afqtNote": "Part of the AFQT, used for enlistment eligibility.",
+    "careerNote": "Contributes to aptitude composites used for military job classification; requirements vary by service.",
+    "tip": "Study tip",
+    "simTitle": "Practice the rhythm of the real test.",
+    "simBody": "Choose a format. Timers run separately for each section, and the answer review appears at the end. No account required.",
+    "catTitle": "Complete CAT format",
+    "catBody": "Fixed selection of original questions in official section order. No going back after answering. This mode does not adapt difficulty.",
+    "adaptiveTitle": "Adaptive practice",
+    "adaptiveBody": "Difficulty adjusts between easy, medium and hard. An educational approximation, not the official CAT algorithm.",
+    "paperTitle": "Paper format",
+    "paperBody": "225 questions across 9 sections. Review answers within the current section before moving on.",
+    "helpWarning": "Using vocabulary or solution help marks this mock test as assisted.",
+    "reviewTitle": "Review your answers",
+    "noAnswer": "Not answered",
+    "answerLabel": "Your answer",
+    "correctAnswer": "Correct answer",
+    "allFormats": "Explore test formats",
+    "subjectImageAlt": "Study books, geometric shapes and a pencil in teal and ivory",
+    "subjects": {
+      "GS": {
+        "title": "General science",
+        "body": "Biology, chemistry, physics and earth science.",
+        "tip": "Connect scientific ideas to everyday examples."
+      },
+      "AR": {
+        "title": "Arithmetic reasoning",
+        "body": "Word problems using rates, ratios, percentages and basic operations.",
+        "tip": "Write down what is known, identify the unknown and check the units."
+      },
+      "WK": {
+        "title": "Word knowledge",
+        "body": "Word meanings and synonyms in context.",
+        "tip": "Compare meanings, not how similar the words look."
+      },
+      "PC": {
+        "title": "Paragraph comprehension",
+        "body": "Information, main ideas and conclusions supported by short passages.",
+        "tip": "Find evidence in the passage instead of using outside assumptions."
+      },
+      "MK": {
+        "title": "Mathematics knowledge",
+        "body": "Algebra, geometry, equations and mathematical principles.",
+        "tip": "Simplify one step at a time and substitute your result to check it."
+      },
+      "EI": {
+        "title": "Electronics information",
+        "body": "Electric circuits, current, voltage and electronic components.",
+        "tip": "Distinguish current, voltage and resistance before applying a formula."
+      },
+      "AI": {
+        "title": "Auto information",
+        "body": "Vehicle engines, systems, maintenance and components.",
+        "tip": "Learn what each component does and which system it belongs to."
+      },
+      "SI": {
+        "title": "Shop information",
+        "body": "Tools, materials, workshop techniques and safe procedures.",
+        "tip": "Match the tool to its purpose and pay attention to safety."
+      },
+      "MC": {
+        "title": "Mechanical comprehension",
+        "body": "Forces, motion, levers, pulleys, gears and simple machines.",
+        "tip": "Sketch the forces and track the direction of motion."
+      },
+      "AO": {
+        "title": "Assembling objects",
+        "body": "Spatial reasoning: how pieces fit together into a whole.",
+        "tip": "Follow corners and edges; rotate pieces mentally without mirroring them."
+      }
+    }
   }
 }

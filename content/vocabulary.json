@@ -1,0 +1,2777 @@
+{
+  "abundant": {
+    "en": "present in great quantity",
+    "pt-BR": "presente em grande quantidade",
+    "es": "presente en gran cantidad"
+  },
+  "plentiful": {
+    "en": "present in great quantity",
+    "pt-BR": "presente em grande quantidade",
+    "es": "presente en gran cantidad"
+  },
+  "scarce": {
+    "en": "available in very small quantity",
+    "pt-BR": "disponível em quantidade muito pequena",
+    "es": "disponible en cantidad muy pequeña"
+  },
+  "rare": {
+    "en": "available in very small quantity",
+    "pt-BR": "disponível em quantidade muito pequena",
+    "es": "disponible en cantidad muy pequeña"
+  },
+  "reluctant": {
+    "en": "not wanting to do something",
+    "pt-BR": "sem vontade de fazer algo",
+    "es": "sin ganas de hacer algo"
+  },
+  "unwilling": {
+    "en": "not wanting to do something",
+    "pt-BR": "sem vontade de fazer algo",
+    "es": "sin ganas de hacer algo"
+  },
+  "meticulous": {
+    "en": "showing great attention to detail",
+    "pt-BR": "com grande atenção aos detalhes",
+    "es": "con gran atención a los detalles"
+  },
+  "careful": {
+    "en": "showing great attention to detail",
+    "pt-BR": "com grande atenção aos detalhes",
+    "es": "con gran atención a los detalles"
+  },
+  "benevolent": {
+    "en": "wanting to do good for others",
+    "pt-BR": "com vontade de fazer o bem aos outros",
+    "es": "con deseo de hacer el bien a los demás"
+  },
+  "kind": {
+    "en": "wanting to do good for others",
+    "pt-BR": "com vontade de fazer o bem aos outros",
+    "es": "con deseo de hacer el bien a los demás"
+  },
+  "ambiguous": {
+    "en": "open to more than one meaning",
+    "pt-BR": "aberto a mais de um sentido",
+    "es": "abierto a más de un significado"
+  },
+  "unclear": {
+    "en": "open to more than one meaning",
+    "pt-BR": "aberto a mais de um sentido",
+    "es": "abierto a más de un significado"
+  },
+  "concise": {
+    "en": "using few words",
+    "pt-BR": "que usa poucas palavras",
+    "es": "que usa pocas palabras"
+  },
+  "brief": {
+    "en": "using few words",
+    "pt-BR": "que usa poucas palavras",
+    "es": "que usa pocas palabras"
+  },
+  "diligent": {
+    "en": "showing steady effort",
+    "pt-BR": "que mostra esforço constante",
+    "es": "que muestra esfuerzo constante"
+  },
+  "hardworking": {
+    "en": "showing steady effort",
+    "pt-BR": "que mostra esforço constante",
+    "es": "que muestra esfuerzo constante"
+  },
+  "fragile": {
+    "en": "easily broken",
+    "pt-BR": "que se quebra com facilidade",
+    "es": "que se rompe con facilidad"
+  },
+  "delicate": {
+    "en": "easily broken",
+    "pt-BR": "que se quebra com facilidade",
+    "es": "que se rompe con facilidad"
+  },
+  "hostile": {
+    "en": "showing strong dislike",
+    "pt-BR": "que mostra forte antipatia",
+    "es": "que muestra fuerte antipatía"
+  },
+  "unfriendly": {
+    "en": "showing strong dislike",
+    "pt-BR": "que mostra forte antipatia",
+    "es": "que muestra fuerte antipatía"
+  },
+  "immense": {
+    "en": "extremely large",
+    "pt-BR": "extremamente grande",
+    "es": "extremadamente grande"
+  },
+  "enormous": {
+    "en": "extremely large",
+    "pt-BR": "extremamente grande",
+    "es": "extremadamente grande"
+  },
+  "impartial": {
+    "en": "not favoring either side",
+    "pt-BR": "sem favorecer nenhum lado",
+    "es": "sin favorecer a ningún lado"
+  },
+  "fair": {
+    "en": "not favoring either side",
+    "pt-BR": "sem favorecer nenhum lado",
+    "es": "sin favorecer a ningún lado"
+  },
+  "inevitable": {
+    "en": "certain to happen",
+    "pt-BR": "certo de acontecer",
+    "es": "seguro que ocurrirá"
+  },
+  "unavoidable": {
+    "en": "certain to happen",
+    "pt-BR": "certo de acontecer",
+    "es": "seguro que ocurrirá"
+  },
+  "lucid": {
+    "en": "easy to understand",
+    "pt-BR": "fácil de entender",
+    "es": "fácil de entender"
+  },
+  "clear": {
+    "en": "easy to understand",
+    "pt-BR": "fácil de entender",
+    "es": "fácil de entender"
+  },
+  "novice": {
+    "en": "a person who is new to an activity",
+    "pt-BR": "pessoa nova numa atividade",
+    "es": "persona nueva en una actividad"
+  },
+  "beginner": {
+    "en": "a person who is new to an activity",
+    "pt-BR": "pessoa nova numa atividade",
+    "es": "persona nueva en una actividad"
+  },
+  "obsolete": {
+    "en": "no longer in use",
+    "pt-BR": "que já não se usa",
+    "es": "que ya no se usa"
+  },
+  "outdated": {
+    "en": "no longer in use",
+    "pt-BR": "que já não se usa",
+    "es": "que ya no se usa"
+  },
+  "prudent": {
+    "en": "showing careful judgment",
+    "pt-BR": "que mostra julgamento cuidadoso",
+    "es": "que muestra juicio cuidadoso"
+  },
+  "cautious": {
+    "en": "showing careful judgment",
+    "pt-BR": "que mostra julgamento cuidadoso",
+    "es": "que muestra juicio cuidadoso"
+  },
+  "robust": {
+    "en": "sturdy and healthy",
+    "pt-BR": "firme e resistente",
+    "es": "firme y resistente"
+  },
+  "strong": {
+    "en": "sturdy and healthy",
+    "pt-BR": "firme e resistente",
+    "es": "firme y resistente"
+  },
+  "skeptical": {
+    "en": "not easily convinced",
+    "pt-BR": "que não se convence com facilidade",
+    "es": "que no se convence con facilidad"
+  },
+  "doubtful": {
+    "en": "not easily convinced",
+    "pt-BR": "que não se convence com facilidade",
+    "es": "que no se convence con facilidad"
+  },
+  "tentative": {
+    "en": "not yet definite",
+    "pt-BR": "ainda não definitivo",
+    "es": "aún no definitivo"
+  },
+  "provisional": {
+    "en": "not yet definite",
+    "pt-BR": "ainda não definitivo",
+    "es": "aún no definitivo"
+  },
+  "thrive": {
+    "en": "to grow well",
+    "pt-BR": "crescer bem",
+    "es": "crecer bien"
+  },
+  "flourish": {
+    "en": "to grow well",
+    "pt-BR": "crescer bem",
+    "es": "crecer bien"
+  },
+  "vacant": {
+    "en": "not occupied",
+    "pt-BR": "desocupado",
+    "es": "desocupado"
+  },
+  "empty": {
+    "en": "not occupied",
+    "pt-BR": "desocupado",
+    "es": "desocupado"
+  },
+  "weary": {
+    "en": "very tired",
+    "pt-BR": "muito cansado",
+    "es": "muy cansado"
+  },
+  "tired": {
+    "en": "very tired",
+    "pt-BR": "muito cansado",
+    "es": "muy cansado"
+  },
+  "yield": {
+    "en": "to give or supply",
+    "pt-BR": "fornecer ou produzir",
+    "es": "dar o producir"
+  },
+  "produce": {
+    "en": "to give or supply",
+    "pt-BR": "fornecer ou produzir",
+    "es": "dar o producir"
+  },
+  "zeal": {
+    "en": "eager energy for a cause",
+    "pt-BR": "energia empenhada numa causa",
+    "es": "energía dedicada a una causa"
+  },
+  "enthusiasm": {
+    "en": "eager energy for a cause",
+    "pt-BR": "energia empenhada numa causa",
+    "es": "energía dedicada a una causa"
+  },
+  "abrupt": {
+    "en": "happening without warning",
+    "pt-BR": "que acontece sem aviso",
+    "es": "que ocurre sin aviso"
+  },
+  "sudden": {
+    "en": "happening without warning",
+    "pt-BR": "que acontece sem aviso",
+    "es": "que ocurre sin aviso"
+  },
+  "adverse": {
+    "en": "working against success",
+    "pt-BR": "contrário ao sucesso",
+    "es": "contrario al éxito"
+  },
+  "unfavorable": {
+    "en": "working against success",
+    "pt-BR": "contrário ao sucesso",
+    "es": "contrario al éxito"
+  },
+  "affluent": {
+    "en": "having plenty of money",
+    "pt-BR": "que tem muito dinheiro",
+    "es": "que tiene mucho dinero"
+  },
+  "wealthy": {
+    "en": "having plenty of money",
+    "pt-BR": "que tem muito dinheiro",
+    "es": "que tiene mucho dinero"
+  },
+  "alleviate": {
+    "en": "to make a problem less severe",
+    "pt-BR": "tornar um problema menos grave",
+    "es": "hacer un problema menos grave"
+  },
+  "relieve": {
+    "en": "to make a problem less severe",
+    "pt-BR": "tornar um problema menos grave",
+    "es": "hacer un problema menos grave"
+  },
+  "allot": {
+    "en": "to give out a share",
+    "pt-BR": "distribuir uma parte",
+    "es": "repartir una parte"
+  },
+  "assign": {
+    "en": "to give out a share",
+    "pt-BR": "distribuir uma parte",
+    "es": "repartir una parte"
+  },
+  "ample": {
+    "en": "enough for the need",
+    "pt-BR": "suficiente para a necessidade",
+    "es": "suficiente para la necesidad"
+  },
+  "sufficient": {
+    "en": "enough for the need",
+    "pt-BR": "suficiente para a necessidade",
+    "es": "suficiente para la necesidad"
+  },
+  "antagonize": {
+    "en": "to make someone hostile",
+    "pt-BR": "tornar alguém hostil",
+    "es": "volver hostil a alguien"
+  },
+  "provoke": {
+    "en": "to make someone hostile",
+    "pt-BR": "tornar alguém hostil",
+    "es": "volver hostil a alguien"
+  },
+  "apprehensive": {
+    "en": "worried that something bad may happen",
+    "pt-BR": "preocupado com algo ruim",
+    "es": "preocupado porque algo malo puede ocurrir"
+  },
+  "anxious": {
+    "en": "worried that something bad may happen",
+    "pt-BR": "preocupado com algo ruim",
+    "es": "preocupado porque algo malo puede ocurrir"
+  },
+  "arbitrary": {
+    "en": "based on personal choice rather than a rule",
+    "pt-BR": "baseado em escolha pessoal, sem regra",
+    "es": "basado en una elección personal, sin regla"
+  },
+  "random": {
+    "en": "based on personal choice rather than a rule",
+    "pt-BR": "baseado em escolha pessoal, sem regra",
+    "es": "basado en una elección personal, sin regla"
+  },
+  "arid": {
+    "en": "lacking moisture",
+    "pt-BR": "sem umidade",
+    "es": "sin humedad"
+  },
+  "dry": {
+    "en": "lacking moisture",
+    "pt-BR": "sem umidade",
+    "es": "sin humedad"
+  },
+  "articulate": {
+    "en": "able to speak clearly",
+    "pt-BR": "capaz de falar com clareza",
+    "es": "capaz de hablar con claridad"
+  },
+  "expressive": {
+    "en": "able to speak clearly",
+    "pt-BR": "capaz de falar com clareza",
+    "es": "capaz de hablar con claridad"
+  },
+  "augment": {
+    "en": "to make larger",
+    "pt-BR": "tornar maior",
+    "es": "hacer mayor"
+  },
+  "increase": {
+    "en": "to make larger",
+    "pt-BR": "tornar maior",
+    "es": "hacer mayor"
+  },
+  "authentic": {
+    "en": "real, not a copy",
+    "pt-BR": "verdadeiro, não uma cópia",
+    "es": "verdadero, no una copia"
+  },
+  "genuine": {
+    "en": "real, not a copy",
+    "pt-BR": "verdadeiro, não uma cópia",
+    "es": "verdadero, no una copia"
+  },
+  "baffled": {
+    "en": "unable to understand",
+    "pt-BR": "sem conseguir entender",
+    "es": "sin lograr entender"
+  },
+  "puzzled": {
+    "en": "unable to understand",
+    "pt-BR": "sem conseguir entender",
+    "es": "sin lograr entender"
+  },
+  "barren": {
+    "en": "unable to produce growth",
+    "pt-BR": "incapaz de produzir crescimento",
+    "es": "incapaz de producir crecimiento"
+  },
+  "infertile": {
+    "en": "unable to produce growth",
+    "pt-BR": "incapaz de produzir crescimento",
+    "es": "incapaz de producir crecimiento"
+  },
+  "benign": {
+    "en": "not dangerous",
+    "pt-BR": "não perigoso",
+    "es": "no peligroso"
+  },
+  "harmless": {
+    "en": "not dangerous",
+    "pt-BR": "não perigoso",
+    "es": "no peligroso"
+  },
+  "bleak": {
+    "en": "offering little hope",
+    "pt-BR": "com pouca esperança",
+    "es": "con poca esperanza"
+  },
+  "grim": {
+    "en": "offering little hope",
+    "pt-BR": "com pouca esperança",
+    "es": "con poca esperanza"
+  },
+  "candid": {
+    "en": "open and honest",
+    "pt-BR": "aberto e honesto",
+    "es": "abierto y honesto"
+  },
+  "frank": {
+    "en": "open and honest",
+    "pt-BR": "aberto e honesto",
+    "es": "abierto y honesto"
+  },
+  "cease": {
+    "en": "to come to an end",
+    "pt-BR": "chegar ao fim",
+    "es": "llegar al fin"
+  },
+  "stop": {
+    "en": "to come to an end",
+    "pt-BR": "chegar ao fim",
+    "es": "llegar al fin"
+  },
+  "chronic": {
+    "en": "lasting a long time",
+    "pt-BR": "que dura muito tempo",
+    "es": "que dura mucho tiempo"
+  },
+  "persistent": {
+    "en": "lasting a long time",
+    "pt-BR": "que dura muito tempo",
+    "es": "que dura mucho tiempo"
+  },
+  "coerce": {
+    "en": "to pressure someone into acting",
+    "pt-BR": "pressionar alguém a agir",
+    "es": "presionar a alguien para que actúe"
+  },
+  "force": {
+    "en": "to pressure someone into acting",
+    "pt-BR": "pressionar alguém a agir",
+    "es": "presionar a alguien para que actúe"
+  },
+  "coherent": {
+    "en": "fitting together in a clear way",
+    "pt-BR": "que se encaixa de modo claro",
+    "es": "que encaja de modo claro"
+  },
+  "logical": {
+    "en": "fitting together in a clear way",
+    "pt-BR": "que se encaixa de modo claro",
+    "es": "que encaja de modo claro"
+  },
+  "collaborate": {
+    "en": "to work together",
+    "pt-BR": "trabalhar junto",
+    "es": "trabajar juntos"
+  },
+  "cooperate": {
+    "en": "to work together",
+    "pt-BR": "trabalhar junto",
+    "es": "trabajar juntos"
+  },
+  "competent": {
+    "en": "able to do a job properly",
+    "pt-BR": "capaz de fazer o trabalho direito",
+    "es": "capaz de hacer el trabajo bien"
+  },
+  "capable": {
+    "en": "able to do a job properly",
+    "pt-BR": "capaz de fazer o trabalho direito",
+    "es": "capaz de hacer el trabajo bien"
+  },
+  "compile": {
+    "en": "to gather material into one set",
+    "pt-BR": "reunir material num conjunto",
+    "es": "reunir material en un conjunto"
+  },
+  "collect": {
+    "en": "to gather material into one set",
+    "pt-BR": "reunir material num conjunto",
+    "es": "reunir material en un conjunto"
+  },
+  "comply": {
+    "en": "to act according to a rule or request",
+    "pt-BR": "agir conforme uma regra ou pedido",
+    "es": "actuar según una regla o un pedido"
+  },
+  "obey": {
+    "en": "to act according to a rule or request",
+    "pt-BR": "agir conforme uma regra ou pedido",
+    "es": "actuar según una regla o un pedido"
+  },
+  "comprehensive": {
+    "en": "covering all important parts",
+    "pt-BR": "que cobre todas as partes importantes",
+    "es": "que cubre todas las partes importantes"
+  },
+  "complete": {
+    "en": "covering all important parts",
+    "pt-BR": "que cobre todas as partes importantes",
+    "es": "que cubre todas las partes importantes"
+  },
+  "compulsory": {
+    "en": "demanded by a rule",
+    "pt-BR": "exigido por uma regra",
+    "es": "exigido por una regla"
+  },
+  "required": {
+    "en": "demanded by a rule",
+    "pt-BR": "exigido por uma regra",
+    "es": "exigido por una regla"
+  },
+  "conceal": {
+    "en": "to keep from being seen",
+    "pt-BR": "impedir que seja visto",
+    "es": "impedir que sea visto"
+  },
+  "hide": {
+    "en": "to keep from being seen",
+    "pt-BR": "impedir que seja visto",
+    "es": "impedir que sea visto"
+  },
+  "concur": {
+    "en": "to have the same opinion",
+    "pt-BR": "ter a mesma opinião",
+    "es": "tener la misma opinión"
+  },
+  "agree": {
+    "en": "to have the same opinion",
+    "pt-BR": "ter a mesma opinião",
+    "es": "tener la misma opinión"
+  },
+  "condemn": {
+    "en": "to express strong disapproval",
+    "pt-BR": "expressar forte reprovação",
+    "es": "expresar una fuerte desaprobación"
+  },
+  "denounce": {
+    "en": "to express strong disapproval",
+    "pt-BR": "expressar forte reprovação",
+    "es": "expresar una fuerte desaprobación"
+  },
+  "confirm": {
+    "en": "to show that something is true",
+    "pt-BR": "mostrar que algo é verdadeiro",
+    "es": "mostrar que algo es verdadero"
+  },
+  "verify": {
+    "en": "to show that something is true",
+    "pt-BR": "mostrar que algo é verdadeiro",
+    "es": "mostrar que algo es verdadero"
+  },
+  "consecutive": {
+    "en": "following one after another",
+    "pt-BR": "um depois do outro, sem interrupção",
+    "es": "uno después del otro, sin interrupción"
+  },
+  "successive": {
+    "en": "following one after another",
+    "pt-BR": "um depois do outro, sem interrupção",
+    "es": "uno después del otro, sin interrupción"
+  },
+  "consensus": {
+    "en": "a shared decision",
+    "pt-BR": "uma decisão compartilhada",
+    "es": "una decisión compartida"
+  },
+  "agreement": {
+    "en": "a shared decision",
+    "pt-BR": "uma decisão compartilhada",
+    "es": "una decisión compartida"
+  },
+  "conserve": {
+    "en": "to keep from being used up",
+    "pt-BR": "evitar que se esgote",
+    "es": "evitar que se agote"
+  },
+  "save": {
+    "en": "to keep from being used up",
+    "pt-BR": "evitar que se esgote",
+    "es": "evitar que se agote"
+  },
+  "considerable": {
+    "en": "large enough to matter",
+    "pt-BR": "grande o bastante para importar",
+    "es": "lo bastante grande como para importar"
+  },
+  "significant": {
+    "en": "large enough to matter",
+    "pt-BR": "grande o bastante para importar",
+    "es": "lo bastante grande como para importar"
+  },
+  "consistent": {
+    "en": "not changing without reason",
+    "pt-BR": "sem mudar sem motivo",
+    "es": "sin cambiar sin motivo"
+  },
+  "steady": {
+    "en": "not changing without reason",
+    "pt-BR": "sem mudar sem motivo",
+    "es": "sin cambiar sin motivo"
+  },
+  "conspicuous": {
+    "en": "easy to notice",
+    "pt-BR": "fácil de notar",
+    "es": "fácil de notar"
+  },
+  "obvious": {
+    "en": "easy to notice",
+    "pt-BR": "fácil de notar",
+    "es": "fácil de notar"
+  },
+  "contaminate": {
+    "en": "to make impure",
+    "pt-BR": "tornar impuro",
+    "es": "volver impuro"
+  },
+  "pollute": {
+    "en": "to make impure",
+    "pt-BR": "tornar impuro",
+    "es": "volver impuro"
+  },
+  "contemporary": {
+    "en": "belonging to the present time",
+    "pt-BR": "pertencente ao tempo presente",
+    "es": "perteneciente al tiempo presente"
+  },
+  "modern": {
+    "en": "belonging to the present time",
+    "pt-BR": "pertencente ao tempo presente",
+    "es": "perteneciente al tiempo presente"
+  },
+  "contradict": {
+    "en": "to say the opposite",
+    "pt-BR": "dizer o contrário",
+    "es": "decir lo contrario"
+  },
+  "deny": {
+    "en": "to say the opposite",
+    "pt-BR": "dizer o contrário",
+    "es": "decir lo contrario"
+  },
+  "convene": {
+    "en": "to come together for a meeting",
+    "pt-BR": "reunir-se para um encontro",
+    "es": "reunirse para un encuentro"
+  },
+  "assemble": {
+    "en": "to come together for a meeting",
+    "pt-BR": "reunir-se para um encontro",
+    "es": "reunirse para un encuentro"
+  },
+  "conventional": {
+    "en": "following the usual custom",
+    "pt-BR": "conforme o costume usual",
+    "es": "conforme la costumbre usual"
+  },
+  "traditional": {
+    "en": "following the usual custom",
+    "pt-BR": "conforme o costume usual",
+    "es": "conforme la costumbre usual"
+  },
+  "convey": {
+    "en": "to make an idea known",
+    "pt-BR": "fazer uma ideia ser conhecida",
+    "es": "hacer que una idea se conozca"
+  },
+  "communicate": {
+    "en": "to make an idea known",
+    "pt-BR": "fazer uma ideia ser conhecida",
+    "es": "hacer que una idea se conozca"
+  },
+  "copious": {
+    "en": "existing in large supply",
+    "pt-BR": "existente em grande quantidade",
+    "es": "existente en gran cantidad"
+  },
+  "cordial": {
+    "en": "warm and sincere",
+    "pt-BR": "caloroso e sincero",
+    "es": "cálido y sincero"
+  },
+  "friendly": {
+    "en": "warm and sincere",
+    "pt-BR": "caloroso e sincero",
+    "es": "cálido y sincero"
+  },
+  "corroborate": {
+    "en": "to support a statement with more evidence",
+    "pt-BR": "apoiar uma afirmação com mais evidência",
+    "es": "apoyar una afirmación con más evidencia"
+  },
+  "counterfeit": {
+    "en": "made to look real in order to deceive",
+    "pt-BR": "feito para parecer real e enganar",
+    "es": "hecho para parecer real y engañar"
+  },
+  "fake": {
+    "en": "made to look real in order to deceive",
+    "pt-BR": "feito para parecer real e enganar",
+    "es": "hecho para parecer real y engañar"
+  },
+  "credible": {
+    "en": "worthy of belief",
+    "pt-BR": "digno de crédito",
+    "es": "digno de crédito"
+  },
+  "believable": {
+    "en": "worthy of belief",
+    "pt-BR": "digno de crédito",
+    "es": "digno de crédito"
+  },
+  "crucial": {
+    "en": "extremely important",
+    "pt-BR": "extremamente importante",
+    "es": "extremadamente importante"
+  },
+  "essential": {
+    "en": "extremely important",
+    "pt-BR": "extremamente importante",
+    "es": "extremadamente importante"
+  },
+  "cumbersome": {
+    "en": "hard to handle because of size or complexity",
+    "pt-BR": "difícil de manusear pelo tamanho ou pela complexidade",
+    "es": "difícil de manejar por el tamaño o la complejidad"
+  },
+  "awkward": {
+    "en": "hard to handle because of size or complexity",
+    "pt-BR": "difícil de manusear pelo tamanho ou pela complexidade",
+    "es": "difícil de manejar por el tamaño o la complejidad"
+  },
+  "curtail": {
+    "en": "to cut short",
+    "pt-BR": "encurtar ou reduzir",
+    "es": "acortar o reducir"
+  },
+  "reduce": {
+    "en": "to cut short",
+    "pt-BR": "encurtar ou reduzir",
+    "es": "acortar o reducir"
+  },
+  "decisive": {
+    "en": "settling a question",
+    "pt-BR": "que resolve uma questão",
+    "es": "que resuelve una cuestión"
+  },
+  "conclusive": {
+    "en": "settling a question",
+    "pt-BR": "que resolve uma questão",
+    "es": "que resuelve una cuestión"
+  },
+  "deficient": {
+    "en": "not having enough",
+    "pt-BR": "sem ter o suficiente",
+    "es": "sin tener lo suficiente"
+  },
+  "lacking": {
+    "en": "not having enough",
+    "pt-BR": "sem ter o suficiente",
+    "es": "sin tener lo suficiente"
+  },
+  "defy": {
+    "en": "to refuse to submit",
+    "pt-BR": "recusar-se a ceder",
+    "es": "negarse a ceder"
+  },
+  "resist": {
+    "en": "to refuse to submit",
+    "pt-BR": "recusar-se a ceder",
+    "es": "negarse a ceder"
+  },
+  "deliberate": {
+    "en": "done on purpose",
+    "pt-BR": "feito de propósito",
+    "es": "hecho a propósito"
+  },
+  "intentional": {
+    "en": "done on purpose",
+    "pt-BR": "feito de propósito",
+    "es": "hecho a propósito"
+  },
+  "depict": {
+    "en": "to show in words or pictures",
+    "pt-BR": "mostrar em palavras ou imagens",
+    "es": "mostrar con palabras o imágenes"
+  },
+  "portray": {
+    "en": "to show in words or pictures",
+    "pt-BR": "mostrar em palavras ou imagens",
+    "es": "mostrar con palabras o imágenes"
+  },
+  "deplete": {
+    "en": "to use up a supply",
+    "pt-BR": "esgotar uma reserva",
+    "es": "agotar una reserva"
+  },
+  "exhaust": {
+    "en": "to use up a supply",
+    "pt-BR": "esgotar uma reserva",
+    "es": "agotar una reserva"
+  },
+  "derive": {
+    "en": "to get something from a source",
+    "pt-BR": "obter algo de uma fonte",
+    "es": "obtener algo de una fuente"
+  },
+  "obtain": {
+    "en": "to get something from a source",
+    "pt-BR": "obter algo de uma fonte",
+    "es": "obtener algo de una fuente"
+  },
+  "deter": {
+    "en": "to prevent an action by creating doubt",
+    "pt-BR": "impedir uma ação ao criar dúvida",
+    "es": "impedir una acción al crear duda"
+  },
+  "discourage": {
+    "en": "to prevent an action by creating doubt",
+    "pt-BR": "impedir uma ação ao criar dúvida",
+    "es": "impedir una acción al crear duda"
+  },
+  "detrimental": {
+    "en": "causing damage",
+    "pt-BR": "que causa dano",
+    "es": "que causa daño"
+  },
+  "harmful": {
+    "en": "causing damage",
+    "pt-BR": "que causa dano",
+    "es": "que causa daño"
+  },
+  "devise": {
+    "en": "to plan or create",
+    "pt-BR": "planejar ou criar",
+    "es": "planear o crear"
+  },
+  "invent": {
+    "en": "to plan or create",
+    "pt-BR": "planejar ou criar",
+    "es": "planear o crear"
+  },
+  "diffuse": {
+    "en": "to scatter over a wide area",
+    "pt-BR": "espalhar por uma área ampla",
+    "es": "esparcir por un área amplia"
+  },
+  "spread": {
+    "en": "to scatter over a wide area",
+    "pt-BR": "espalhar por uma área ampla",
+    "es": "esparcir por un área amplia"
+  },
+  "dilemma": {
+    "en": "a choice between difficult options",
+    "pt-BR": "uma escolha entre opções difíceis",
+    "es": "una elección entre opciones difíciles"
+  },
+  "predicament": {
+    "en": "a choice between difficult options",
+    "pt-BR": "uma escolha entre opções difíceis",
+    "es": "una elección entre opciones difíciles"
+  },
+  "diminish": {
+    "en": "to become smaller",
+    "pt-BR": "tornar-se menor",
+    "es": "volverse menor"
+  },
+  "lessen": {
+    "en": "to become smaller",
+    "pt-BR": "tornar-se menor",
+    "es": "volverse menor"
+  },
+  "disperse": {
+    "en": "to send in different directions",
+    "pt-BR": "enviar em direções diferentes",
+    "es": "enviar en direcciones distintas"
+  },
+  "scatter": {
+    "en": "to send in different directions",
+    "pt-BR": "enviar em direções diferentes",
+    "es": "enviar en direcciones distintas"
+  },
+  "dissent": {
+    "en": "a difference of opinion",
+    "pt-BR": "uma diferença de opinião",
+    "es": "una diferencia de opinión"
+  },
+  "disagreement": {
+    "en": "a difference of opinion",
+    "pt-BR": "uma diferença de opinião",
+    "es": "una diferencia de opinión"
+  },
+  "distinct": {
+    "en": "unmistakably separate or noticeable",
+    "pt-BR": "claramente separado ou perceptível",
+    "es": "claramente separado o perceptible"
+  },
+  "diverse": {
+    "en": "made up of different kinds",
+    "pt-BR": "formado por tipos diferentes",
+    "es": "formado por tipos diferentes"
+  },
+  "varied": {
+    "en": "made up of different kinds",
+    "pt-BR": "formado por tipos diferentes",
+    "es": "formado por tipos diferentes"
+  },
+  "dominant": {
+    "en": "having the greatest influence",
+    "pt-BR": "com a maior influência",
+    "es": "con la mayor influencia"
+  },
+  "controlling": {
+    "en": "having the greatest influence",
+    "pt-BR": "com a maior influência",
+    "es": "con la mayor influencia"
+  },
+  "dormant": {
+    "en": "not currently active, though still present",
+    "pt-BR": "inativo no momento, embora ainda presente",
+    "es": "inactivo por ahora, aunque todavía presente"
+  },
+  "inactive": {
+    "en": "not currently active, though still present",
+    "pt-BR": "inativo no momento, embora ainda presente",
+    "es": "inactivo por ahora, aunque todavía presente"
+  },
+  "dubious": {
+    "en": "causing doubt",
+    "pt-BR": "que causa dúvida",
+    "es": "que causa duda"
+  },
+  "durable": {
+    "en": "able to last",
+    "pt-BR": "capaz de durar",
+    "es": "capaz de durar"
+  },
+  "sturdy": {
+    "en": "able to last",
+    "pt-BR": "capaz de durar",
+    "es": "capaz de durar"
+  },
+  "dwindle": {
+    "en": "to become gradually smaller",
+    "pt-BR": "tornar-se gradualmente menor",
+    "es": "volverse gradualmente menor"
+  },
+  "shrink": {
+    "en": "to become gradually smaller",
+    "pt-BR": "tornar-se gradualmente menor",
+    "es": "volverse gradualmente menor"
+  },
+  "eccentric": {
+    "en": "noticeably different from the usual",
+    "pt-BR": "nitidamente diferente do usual",
+    "es": "claramente diferente de lo usual"
+  },
+  "unconventional": {
+    "en": "noticeably different from the usual",
+    "pt-BR": "nitidamente diferente do usual",
+    "es": "claramente diferente de lo usual"
+  },
+  "elaborate": {
+    "en": "worked out with many parts",
+    "pt-BR": "desenvolvido com muitas partes",
+    "es": "desarrollado con muchas partes"
+  },
+  "detailed": {
+    "en": "worked out with many parts",
+    "pt-BR": "desenvolvido com muitas partes",
+    "es": "desarrollado con muchas partes"
+  },
+  "elated": {
+    "en": "very happy",
+    "pt-BR": "muito feliz",
+    "es": "muy feliz"
+  },
+  "joyful": {
+    "en": "very happy",
+    "pt-BR": "muito feliz",
+    "es": "muy feliz"
+  },
+  "eloquent": {
+    "en": "speaking in a fluent and convincing way",
+    "pt-BR": "falando de modo fluente e convincente",
+    "es": "hablando de modo fluido y convincente"
+  },
+  "persuasive": {
+    "en": "speaking in a fluent and convincing way",
+    "pt-BR": "falando de modo fluente e convincente",
+    "es": "hablando de modo fluido y convincente"
+  },
+  "elusive": {
+    "en": "hard to catch or define",
+    "pt-BR": "difícil de capturar ou definir",
+    "es": "difícil de capturar o definir"
+  },
+  "evasive": {
+    "en": "hard to catch or define",
+    "pt-BR": "difícil de capturar ou definir",
+    "es": "difícil de capturar o definir"
+  },
+  "eminent": {
+    "en": "standing above others in achievement",
+    "pt-BR": "destacado pela realização",
+    "es": "destacado por sus logros"
+  },
+  "distinguished": {
+    "en": "standing above others in achievement",
+    "pt-BR": "destacado pela realização",
+    "es": "destacado por sus logros"
+  },
+  "imminent": {
+    "en": "about to happen",
+    "pt-BR": "prestes a acontecer",
+    "es": "a punto de ocurrir"
+  },
+  "impending": {
+    "en": "about to happen",
+    "pt-BR": "prestes a acontecer",
+    "es": "a punto de ocurrir"
+  },
+  "emphasize": {
+    "en": "to give special importance",
+    "pt-BR": "dar importância especial",
+    "es": "dar importancia especial"
+  },
+  "stress": {
+    "en": "to give special importance",
+    "pt-BR": "dar importância especial",
+    "es": "dar importancia especial"
+  },
+  "enable": {
+    "en": "to make something possible",
+    "pt-BR": "tornar algo possível",
+    "es": "hacer algo posible"
+  },
+  "allow": {
+    "en": "to make something possible",
+    "pt-BR": "tornar algo possível",
+    "es": "hacer algo posible"
+  },
+  "endure": {
+    "en": "to last through difficulty",
+    "pt-BR": "suportar uma dificuldade",
+    "es": "soportar una dificultad"
+  },
+  "withstand": {
+    "en": "to last through difficulty",
+    "pt-BR": "suportar uma dificuldade",
+    "es": "soportar una dificultad"
+  },
+  "enhance": {
+    "en": "to raise the quality of something",
+    "pt-BR": "elevar a qualidade de algo",
+    "es": "elevar la calidad de algo"
+  },
+  "improve": {
+    "en": "to raise the quality of something",
+    "pt-BR": "elevar a qualidade de algo",
+    "es": "elevar la calidad de algo"
+  },
+  "equivalent": {
+    "en": "having the same value",
+    "pt-BR": "com o mesmo valor",
+    "es": "con el mismo valor"
+  },
+  "equal": {
+    "en": "having the same value",
+    "pt-BR": "com o mesmo valor",
+    "es": "con el mismo valor"
+  },
+  "erratic": {
+    "en": "not following a regular pattern",
+    "pt-BR": "sem seguir um padrão regular",
+    "es": "sin seguir un patrón regular"
+  },
+  "irregular": {
+    "en": "not following a regular pattern",
+    "pt-BR": "sem seguir um padrão regular",
+    "es": "sin seguir un patrón regular"
+  },
+  "erroneous": {
+    "en": "containing an error",
+    "pt-BR": "que contém um erro",
+    "es": "que contiene un error"
+  },
+  "incorrect": {
+    "en": "containing an error",
+    "pt-BR": "que contém um erro",
+    "es": "que contiene un error"
+  },
+  "evident": {
+    "en": "easy to see or prove",
+    "pt-BR": "fácil de ver ou provar",
+    "es": "fácil de ver o probar"
+  },
+  "exacerbate": {
+    "en": "to make a bad situation worse",
+    "pt-BR": "piorar uma situação ruim",
+    "es": "empeorar una situación mala"
+  },
+  "worsen": {
+    "en": "to make a bad situation worse",
+    "pt-BR": "piorar uma situação ruim",
+    "es": "empeorar una situación mala"
+  },
+  "exclusive": {
+    "en": "limited to a particular group",
+    "pt-BR": "limitado a um grupo específico",
+    "es": "limitado a un grupo específico"
+  },
+  "restricted": {
+    "en": "limited to a particular group",
+    "pt-BR": "limitado a um grupo específico",
+    "es": "limitado a un grupo específico"
+  },
+  "exemplify": {
+    "en": "to serve as a typical example",
+    "pt-BR": "servir como exemplo típico",
+    "es": "servir como ejemplo típico"
+  },
+  "illustrate": {
+    "en": "to serve as a typical example",
+    "pt-BR": "servir como exemplo típico",
+    "es": "servir como ejemplo típico"
+  },
+  "exempt": {
+    "en": "freed from a duty",
+    "pt-BR": "livre de um dever",
+    "es": "libre de un deber"
+  },
+  "excused": {
+    "en": "freed from a duty",
+    "pt-BR": "livre de um dever",
+    "es": "libre de un deber"
+  },
+  "exhaustive": {
+    "en": "covering every part",
+    "pt-BR": "que cobre cada parte",
+    "es": "que cubre cada parte"
+  },
+  "thorough": {
+    "en": "covering every part",
+    "pt-BR": "que cobre cada parte",
+    "es": "que cubre cada parte"
+  },
+  "explicit": {
+    "en": "stated fully and clearly",
+    "pt-BR": "dito de modo completo e claro",
+    "es": "dicho de modo completo y claro"
+  },
+  "specific": {
+    "en": "stated fully and clearly",
+    "pt-BR": "dito de modo completo e claro",
+    "es": "dicho de modo completo y claro"
+  },
+  "facilitate": {
+    "en": "to make a process easier",
+    "pt-BR": "facilitar um processo",
+    "es": "facilitar un proceso"
+  },
+  "ease": {
+    "en": "to make a process easier",
+    "pt-BR": "facilitar um processo",
+    "es": "facilitar un proceso"
+  },
+  "feasible": {
+    "en": "able to be done",
+    "pt-BR": "que pode ser feito",
+    "es": "que se puede hacer"
+  },
+  "possible": {
+    "en": "able to be done",
+    "pt-BR": "que pode ser feito",
+    "es": "que se puede hacer"
+  },
+  "feeble": {
+    "en": "lacking strength",
+    "pt-BR": "sem força",
+    "es": "sin fuerza"
+  },
+  "weak": {
+    "en": "lacking strength",
+    "pt-BR": "sem força",
+    "es": "sin fuerza"
+  },
+  "fervent": {
+    "en": "showing intense feeling",
+    "pt-BR": "com sentimento intenso",
+    "es": "con un sentimiento intenso"
+  },
+  "passionate": {
+    "en": "showing intense feeling",
+    "pt-BR": "com sentimento intenso",
+    "es": "con un sentimiento intenso"
+  },
+  "fluctuate": {
+    "en": "to rise and fall irregularly",
+    "pt-BR": "subir e descer sem regularidade",
+    "es": "subir y bajar sin regularidad"
+  },
+  "vary": {
+    "en": "to rise and fall irregularly",
+    "pt-BR": "subir e descer sem regularidade",
+    "es": "subir y bajar sin regularidad"
+  },
+  "foster": {
+    "en": "to promote the development of something",
+    "pt-BR": "promover o desenvolvimento de algo",
+    "es": "promover el desarrollo de algo"
+  },
+  "encourage": {
+    "en": "to promote the development of something",
+    "pt-BR": "promover o desenvolvimento de algo",
+    "es": "promover el desarrollo de algo"
+  },
+  "fraudulent": {
+    "en": "intended to deceive",
+    "pt-BR": "feito para enganar",
+    "es": "hecho para engañar"
+  },
+  "dishonest": {
+    "en": "intended to deceive",
+    "pt-BR": "feito para enganar",
+    "es": "hecho para engañar"
+  },
+  "fundamental": {
+    "en": "forming a necessary foundation",
+    "pt-BR": "que forma uma base necessária",
+    "es": "que forma una base necesaria"
+  },
+  "basic": {
+    "en": "forming a necessary foundation",
+    "pt-BR": "que forma uma base necessária",
+    "es": "que forma una base necesaria"
+  },
+  "generous": {
+    "en": "willing to share",
+    "pt-BR": "disposto a compartilhar",
+    "es": "dispuesto a compartir"
+  },
+  "giving": {
+    "en": "willing to share",
+    "pt-BR": "disposto a compartilhar",
+    "es": "dispuesto a compartir"
+  },
+  "real": {
+    "en": "actually what it appears to be",
+    "pt-BR": "de fato o que parece ser",
+    "es": "realmente lo que parece ser"
+  },
+  "grave": {
+    "en": "requiring careful thought because of importance or danger",
+    "pt-BR": "que exige cuidado pela importância ou pelo perigo",
+    "es": "que exige cuidado por la importancia o el peligro"
+  },
+  "serious": {
+    "en": "requiring careful thought because of importance or danger",
+    "pt-BR": "que exige cuidado pela importância ou pelo perigo",
+    "es": "que exige cuidado por la importancia o el peligro"
+  },
+  "hinder": {
+    "en": "to make progress more difficult",
+    "pt-BR": "tornar o progresso mais difícil",
+    "es": "hacer el progreso más difícil"
+  },
+  "obstruct": {
+    "en": "to make progress more difficult",
+    "pt-BR": "tornar o progresso mais difícil",
+    "es": "hacer el progreso más difícil"
+  },
+  "hypothetical": {
+    "en": "based on a possibility rather than a fact",
+    "pt-BR": "baseado numa possibilidade, não num fato",
+    "es": "basado en una posibilidad, no en un hecho"
+  },
+  "supposed": {
+    "en": "based on a possibility rather than a fact",
+    "pt-BR": "baseado numa possibilidade, não num fato",
+    "es": "basado en una posibilidad, no en un hecho"
+  },
+  "illuminate": {
+    "en": "to make something easier to understand, or to light it",
+    "pt-BR": "tornar algo mais claro ou iluminá-lo",
+    "es": "volver algo más claro o iluminarlo"
+  },
+  "clarify": {
+    "en": "to make something easier to understand, or to light it",
+    "pt-BR": "tornar algo mais claro ou iluminá-lo",
+    "es": "volver algo más claro o iluminarlo"
+  },
+  "imply": {
+    "en": "to express indirectly",
+    "pt-BR": "expressar de modo indireto",
+    "es": "expresar de modo indirecto"
+  },
+  "suggest": {
+    "en": "to express indirectly",
+    "pt-BR": "expressar de modo indireto",
+    "es": "expresar de modo indirecto"
+  },
+  "indifferent": {
+    "en": "having no particular interest",
+    "pt-BR": "sem interesse especial",
+    "es": "sin un interés especial"
+  },
+  "unconcerned": {
+    "en": "having no particular interest",
+    "pt-BR": "sem interesse especial",
+    "es": "sin un interés especial"
+  },
+  "industrious": {
+    "en": "working with energy and care",
+    "pt-BR": "trabalhando com energia e cuidado",
+    "es": "trabajando con energía y cuidado"
+  },
+  "inferior": {
+    "en": "lower in quality or rank",
+    "pt-BR": "inferior em qualidade ou posição",
+    "es": "inferior en calidad o rango"
+  },
+  "lesser": {
+    "en": "lower in quality or rank",
+    "pt-BR": "inferior em qualidade ou posição",
+    "es": "inferior en calidad o rango"
+  },
+  "inhibit": {
+    "en": "to hold back an action",
+    "pt-BR": "conter uma ação",
+    "es": "contener una acción"
+  },
+  "restrain": {
+    "en": "to hold back an action",
+    "pt-BR": "conter uma ação",
+    "es": "contener una acción"
+  },
+  "innovate": {
+    "en": "to introduce a new method",
+    "pt-BR": "introduzir um método novo",
+    "es": "introducir un método nuevo"
+  },
+  "inquiry": {
+    "en": "a search for information",
+    "pt-BR": "uma busca por informação",
+    "es": "una búsqueda de información"
+  },
+  "investigation": {
+    "en": "a search for information",
+    "pt-BR": "uma busca por informação",
+    "es": "una búsqueda de información"
+  },
+  "integrity": {
+    "en": "the quality of being honest and whole",
+    "pt-BR": "a qualidade de ser honesto e íntegro",
+    "es": "la cualidad de ser honesto e íntegro"
+  },
+  "honesty": {
+    "en": "the quality of being honest and whole",
+    "pt-BR": "a qualidade de ser honesto e íntegro",
+    "es": "la cualidad de ser honesto e íntegro"
+  },
+  "interrupt": {
+    "en": "to break the continuity of something",
+    "pt-BR": "interromper a continuidade de algo",
+    "es": "interrumpir la continuidad de algo"
+  },
+  "isolate": {
+    "en": "to set apart from others",
+    "pt-BR": "colocar à parte dos outros",
+    "es": "poner aparte de los demás"
+  },
+  "separate": {
+    "en": "to set apart from others",
+    "pt-BR": "colocar à parte dos outros",
+    "es": "poner aparte de los demás"
+  },
+  "justify": {
+    "en": "to show that something is right or reasonable",
+    "pt-BR": "mostrar que algo é certo ou razoável",
+    "es": "mostrar que algo es correcto o razonable"
+  },
+  "defend": {
+    "en": "to show that something is right or reasonable",
+    "pt-BR": "mostrar que algo é certo ou razoável",
+    "es": "mostrar que algo es correcto o razonable"
+  },
+  "keen": {
+    "en": "highly sensitive or eager",
+    "pt-BR": "muito sensível ou interessado",
+    "es": "muy sensible o interesado"
+  },
+  "sharp": {
+    "en": "highly sensitive or eager",
+    "pt-BR": "muito sensível ou interessado",
+    "es": "muy sensible o interesado"
+  },
+  "linger": {
+    "en": "to stay longer than expected",
+    "pt-BR": "ficar mais tempo do que o esperado",
+    "es": "quedarse más tiempo del esperado"
+  },
+  "remain": {
+    "en": "to stay longer than expected",
+    "pt-BR": "ficar mais tempo do que o esperado",
+    "es": "quedarse más tiempo del esperado"
+  },
+  "magnitude": {
+    "en": "greatness in size or importance",
+    "pt-BR": "grandeza em tamanho ou importância",
+    "es": "grandeza en tamaño o importancia"
+  },
+  "size": {
+    "en": "greatness in size or importance",
+    "pt-BR": "grandeza em tamanho ou importância",
+    "es": "grandeza en tamaño o importancia"
+  },
+  "mandatory": {
+    "en": "ordered by a rule",
+    "pt-BR": "ordenado por uma regra",
+    "es": "ordenado por una regla"
+  },
+  "meager": {
+    "en": "lacking in amount",
+    "pt-BR": "insuficiente em quantidade",
+    "es": "insuficiente en cantidad"
+  },
+  "scanty": {
+    "en": "lacking in amount",
+    "pt-BR": "insuficiente em quantidade",
+    "es": "insuficiente en cantidad"
+  },
+  "negligent": {
+    "en": "failing to take proper care",
+    "pt-BR": "sem o cuidado devido",
+    "es": "sin el cuidado debido"
+  },
+  "careless": {
+    "en": "failing to take proper care",
+    "pt-BR": "sem o cuidado devido",
+    "es": "sin el cuidado debido"
+  },
+  "notable": {
+    "en": "worthy of attention",
+    "pt-BR": "digno de atenção",
+    "es": "digno de atención"
+  },
+  "remarkable": {
+    "en": "worthy of attention",
+    "pt-BR": "digno de atenção",
+    "es": "digno de atención"
+  },
+  "objective": {
+    "en": "based on facts rather than feelings",
+    "pt-BR": "baseado em fatos, não em sentimentos",
+    "es": "basado en hechos, no en sentimientos"
+  },
+  "obscure": {
+    "en": "not clearly understood, or not well known",
+    "pt-BR": "não claramente entendido, ou pouco conhecido",
+    "es": "no claramente entendido, o poco conocido"
+  },
+  "omit": {
+    "en": "to leave out",
+    "pt-BR": "deixar de fora",
+    "es": "dejar fuera"
+  },
+  "exclude": {
+    "en": "to leave out",
+    "pt-BR": "deixar de fora",
+    "es": "dejar fuera"
+  },
+  "optimistic": {
+    "en": "expecting a good result",
+    "pt-BR": "esperando um bom resultado",
+    "es": "esperando un buen resultado"
+  },
+  "hopeful": {
+    "en": "expecting a good result",
+    "pt-BR": "esperando um bom resultado",
+    "es": "esperando un buen resultado"
+  },
+  "methodical": {
+    "en": "arranged in a regular, careful way",
+    "pt-BR": "organizado de modo regular e cuidadoso",
+    "es": "organizado de modo regular y cuidadoso"
+  },
+  "orderly": {
+    "en": "arranged in a regular, careful way",
+    "pt-BR": "organizado de modo regular e cuidadoso",
+    "es": "organizado de modo regular y cuidadoso"
+  },
+  "penalize": {
+    "en": "to impose a penalty",
+    "pt-BR": "impor uma penalidade",
+    "es": "imponer una penalidad"
+  },
+  "punish": {
+    "en": "to impose a penalty",
+    "pt-BR": "impor uma penalidade",
+    "es": "imponer una penalidad"
+  },
+  "permanent": {
+    "en": "intended to remain",
+    "pt-BR": "feito para permanecer",
+    "es": "hecho para permanecer"
+  },
+  "lasting": {
+    "en": "intended to remain",
+    "pt-BR": "feito para permanecer",
+    "es": "hecho para permanecer"
+  },
+  "plausible": {
+    "en": "seeming reasonable, even if not proven",
+    "pt-BR": "que parece razoável, mesmo sem prova",
+    "es": "que parece razonable, aunque no esté probado"
+  },
+  "precede": {
+    "en": "to come before",
+    "pt-BR": "vir antes",
+    "es": "venir antes"
+  },
+  "lead": {
+    "en": "to come before",
+    "pt-BR": "vir antes",
+    "es": "venir antes"
+  },
+  "proceed": {
+    "en": "to go forward",
+    "pt-BR": "seguir adiante",
+    "es": "seguir adelante"
+  },
+  "continue": {
+    "en": "to go forward",
+    "pt-BR": "seguir adiante",
+    "es": "seguir adelante"
+  },
+  "prohibit": {
+    "en": "to refuse to permit",
+    "pt-BR": "não permitir",
+    "es": "no permitir"
+  },
+  "forbid": {
+    "en": "to refuse to permit",
+    "pt-BR": "não permitir",
+    "es": "no permitir"
+  },
+  "prolong": {
+    "en": "to make longer in time",
+    "pt-BR": "tornar mais longo no tempo",
+    "es": "hacer más largo en el tiempo"
+  },
+  "extend": {
+    "en": "to make longer in time",
+    "pt-BR": "tornar mais longo no tempo",
+    "es": "hacer más largo en el tiempo"
+  },
+  "prosper": {
+    "en": "to do well, especially financially",
+    "pt-BR": "ir bem, especialmente no financeiro",
+    "es": "irle bien, especialmente en lo económico"
+  },
+  "succeed": {
+    "en": "to do well, especially financially",
+    "pt-BR": "ir bem, especialmente no financeiro",
+    "es": "irle bien, especialmente en lo económico"
+  },
+  "wary": {
+    "en": "careful to avoid unnecessary risk",
+    "pt-BR": "cuidadoso para evitar risco desnecessário",
+    "es": "cuidadoso para evitar un riesgo innecesario"
+  },
+  "rational": {
+    "en": "based on reason",
+    "pt-BR": "baseado na razão",
+    "es": "basado en la razón"
+  },
+  "reasonable": {
+    "en": "based on reason",
+    "pt-BR": "baseado na razão",
+    "es": "basado en la razón"
+  },
+  "reconcile": {
+    "en": "to restore agreement",
+    "pt-BR": "restaurar o acordo",
+    "es": "restaurar el acuerdo"
+  },
+  "settle": {
+    "en": "to restore agreement",
+    "pt-BR": "restaurar o acordo",
+    "es": "restaurar el acuerdo"
+  },
+  "redundant": {
+    "en": "not needed because something else already covers it",
+    "pt-BR": "desnecessário porque outra coisa já cobre a função",
+    "es": "innecesario porque otra cosa ya cubre la función"
+  },
+  "unnecessary": {
+    "en": "not needed because something else already covers it",
+    "pt-BR": "desnecessário porque outra coisa já cobre a função",
+    "es": "innecesario porque otra cosa ya cubre la función"
+  },
+  "relevant": {
+    "en": "connected to the matter at hand",
+    "pt-BR": "ligado ao assunto em questão",
+    "es": "conectado con el asunto en cuestión"
+  },
+  "applicable": {
+    "en": "connected to the matter at hand",
+    "pt-BR": "ligado ao assunto em questão",
+    "es": "conectado con el asunto en cuestión"
+  },
+  "hesitant": {
+    "en": "slow to agree",
+    "pt-BR": "lento para concordar",
+    "es": "lento para aceptar"
+  },
+  "resemble": {
+    "en": "to look or be like something else",
+    "pt-BR": "parecer-se com outra coisa",
+    "es": "parecerse a otra cosa"
+  },
+  "match": {
+    "en": "to look or be like something else",
+    "pt-BR": "parecer-se com outra coisa",
+    "es": "parecerse a otra cosa"
+  },
+  "resolve": {
+    "en": "to find a solution or to decide firmly",
+    "pt-BR": "encontrar uma solução ou decidir com firmeza",
+    "es": "encontrar una solución o decidir con firmeza"
+  },
+  "hold": {
+    "en": "to keep under control",
+    "pt-BR": "manter sob controle",
+    "es": "mantener bajo control"
+  },
+  "revise": {
+    "en": "to change in order to improve",
+    "pt-BR": "alterar para melhorar",
+    "es": "cambiar para mejorar"
+  },
+  "amend": {
+    "en": "to change in order to improve",
+    "pt-BR": "alterar para melhorar",
+    "es": "cambiar para mejorar"
+  },
+  "scrutinize": {
+    "en": "to inspect very closely",
+    "pt-BR": "inspecionar de muito perto",
+    "es": "inspeccionar muy de cerca"
+  },
+  "examine": {
+    "en": "to inspect very closely",
+    "pt-BR": "inspecionar de muito perto",
+    "es": "inspeccionar muy de cerca"
+  },
+  "meaningful": {
+    "en": "important enough to notice",
+    "pt-BR": "importante o bastante para notar",
+    "es": "lo bastante importante como para notarlo"
+  },
+  "simulate": {
+    "en": "to imitate the appearance or behavior of something",
+    "pt-BR": "imitar a aparência ou o comportamento de algo",
+    "es": "imitar la apariencia o el comportamiento de algo"
+  },
+  "imitate": {
+    "en": "to imitate the appearance or behavior of something",
+    "pt-BR": "imitar a aparência ou o comportamento de algo",
+    "es": "imitar la apariencia o el comportamiento de algo"
+  },
+  "unconvinced": {
+    "en": "inclined to question a claim",
+    "pt-BR": "inclinado a questionar uma afirmação",
+    "es": "inclinado a cuestionar una afirmación"
+  },
+  "solitary": {
+    "en": "without companions",
+    "pt-BR": "sem companhia",
+    "es": "sin compañía"
+  },
+  "alone": {
+    "en": "without companions",
+    "pt-BR": "sem companhia",
+    "es": "sin compañía"
+  },
+  "spontaneous": {
+    "en": "arising without being planned",
+    "pt-BR": "que surge sem planejamento",
+    "es": "que surge sin planificación"
+  },
+  "unplanned": {
+    "en": "arising without being planned",
+    "pt-BR": "que surge sem planejamento",
+    "es": "que surge sin planificación"
+  },
+  "stable": {
+    "en": "not likely to change or fall",
+    "pt-BR": "pouco provável de mudar ou cair",
+    "es": "poco probable que cambie o caiga"
+  },
+  "subsequent": {
+    "en": "coming after something else",
+    "pt-BR": "que vem depois de outra coisa",
+    "es": "que viene después de otra cosa"
+  },
+  "later": {
+    "en": "coming after something else",
+    "pt-BR": "que vem depois de outra coisa",
+    "es": "que viene después de otra cosa"
+  },
+  "enough": {
+    "en": "as much as is needed",
+    "pt-BR": "tanto quanto é necessário",
+    "es": "tanto como se necesita"
+  },
+  "superficial": {
+    "en": "concerned only with the surface",
+    "pt-BR": "ligado apenas à superfície",
+    "es": "limitado a la superficie"
+  },
+  "shallow": {
+    "en": "concerned only with the surface",
+    "pt-BR": "ligado apenas à superfície",
+    "es": "limitado a la superficie"
+  },
+  "surplus": {
+    "en": "an amount left over",
+    "pt-BR": "uma quantidade que sobra",
+    "es": "una cantidad que sobra"
+  },
+  "excess": {
+    "en": "an amount left over",
+    "pt-BR": "uma quantidade que sobra",
+    "es": "una cantidad que sobra"
+  },
+  "sustain": {
+    "en": "to keep something going",
+    "pt-BR": "manter algo em curso",
+    "es": "mantener algo en marcha"
+  },
+  "maintain": {
+    "en": "to keep something going",
+    "pt-BR": "manter algo em curso",
+    "es": "mantener algo en marcha"
+  },
+  "tedious": {
+    "en": "too long and dull",
+    "pt-BR": "longo demais e sem graça",
+    "es": "demasiado largo y aburrido"
+  },
+  "boring": {
+    "en": "too long and dull",
+    "pt-BR": "longo demais e sem graça",
+    "es": "demasiado largo y aburrido"
+  },
+  "terminate": {
+    "en": "to bring to an end",
+    "pt-BR": "levar ao fim",
+    "es": "llevar al fin"
+  },
+  "end": {
+    "en": "to bring to an end",
+    "pt-BR": "levar ao fim",
+    "es": "llevar al fin"
+  },
+  "tolerate": {
+    "en": "to permit something one may not like",
+    "pt-BR": "permitir algo de que talvez não se goste",
+    "es": "permitir algo que quizá no agrade"
+  },
+  "transparent": {
+    "en": "easy to see through, or easy to understand",
+    "pt-BR": "fácil de ver através, ou fácil de entender",
+    "es": "fácil de ver a través, o fácil de entender"
+  },
+  "trivial": {
+    "en": "too small to matter",
+    "pt-BR": "pequeno demais para importar",
+    "es": "demasiado pequeño para importar"
+  },
+  "unimportant": {
+    "en": "too small to matter",
+    "pt-BR": "pequeno demais para importar",
+    "es": "demasiado pequeño para importar"
+  },
+  "uniform": {
+    "en": "the same throughout",
+    "pt-BR": "igual em toda a extensão",
+    "es": "igual en toda su extensión"
+  },
+  "unique": {
+    "en": "unlike anything else",
+    "pt-BR": "diferente de todo o resto",
+    "es": "diferente de todo lo demás"
+  },
+  "singular": {
+    "en": "unlike anything else",
+    "pt-BR": "diferente de todo o resto",
+    "es": "diferente de todo lo demás"
+  },
+  "urgent": {
+    "en": "needing immediate attention",
+    "pt-BR": "que precisa de atenção imediata",
+    "es": "que necesita atención inmediata"
+  },
+  "pressing": {
+    "en": "needing immediate attention",
+    "pt-BR": "que precisa de atenção imediata",
+    "es": "que necesita atención inmediata"
+  },
+  "valid": {
+    "en": "well grounded and acceptable",
+    "pt-BR": "bem fundamentado e aceitável",
+    "es": "bien fundado y aceptable"
+  },
+  "sound": {
+    "en": "well grounded and acceptable",
+    "pt-BR": "bem fundamentado e aceitável",
+    "es": "bien fundado y aceptable"
+  },
+  "versatile": {
+    "en": "able to be used in many ways",
+    "pt-BR": "capaz de ser usado de vários modos",
+    "es": "capaz de usarse de varios modos"
+  },
+  "adaptable": {
+    "en": "able to be used in many ways",
+    "pt-BR": "capaz de ser usado de vários modos",
+    "es": "capaz de usarse de varios modos"
+  },
+  "viable": {
+    "en": "capable of succeeding",
+    "pt-BR": "capaz de dar certo",
+    "es": "capaz de funcionar"
+  },
+  "workable": {
+    "en": "capable of succeeding",
+    "pt-BR": "capaz de dar certo",
+    "es": "capaz de funcionar"
+  },
+  "vigorous": {
+    "en": "strong and active",
+    "pt-BR": "forte e ativo",
+    "es": "fuerte y activo"
+  },
+  "energetic": {
+    "en": "strong and active",
+    "pt-BR": "forte e ativo",
+    "es": "fuerte y activo"
+  },
+  "vulnerable": {
+    "en": "open to harm",
+    "pt-BR": "aberto a dano",
+    "es": "expuesto al daño"
+  },
+  "exposed": {
+    "en": "open to harm",
+    "pt-BR": "aberto a dano",
+    "es": "expuesto al daño"
+  },
+  "fatigued": {
+    "en": "worn out by effort",
+    "pt-BR": "esgotado pelo esforço",
+    "es": "agotado por el esfuerzo"
+  },
+  "withdraw": {
+    "en": "to take back or to pull away",
+    "pt-BR": "retirar ou afastar-se",
+    "es": "retirar o alejarse"
+  },
+  "remove": {
+    "en": "to take back or to pull away",
+    "pt-BR": "retirar ou afastar-se",
+    "es": "retirar o alejarse"
+  },
+  "withhold": {
+    "en": "to refuse to give something",
+    "pt-BR": "recusar-se a entregar algo",
+    "es": "negarse a entregar algo"
+  },
+  "retain": {
+    "en": "to refuse to give something",
+    "pt-BR": "recusar-se a entregar algo",
+    "es": "negarse a entregar algo"
+  },
+  "accidental": {
+    "en": "not intended",
+    "pt-BR": "acidental; sem intenção",
+    "es": "accidental; sin intención"
+  },
+  "accurate": {
+    "en": "correct and precise",
+    "pt-BR": "preciso; correto",
+    "es": "preciso; correcto"
+  },
+  "active": {
+    "en": "doing things; in operation",
+    "pt-BR": "ativo",
+    "es": "activo"
+  },
+  "adequate": {
+    "en": "enough for a purpose",
+    "pt-BR": "adequado; suficiente",
+    "es": "adecuado; suficiente"
+  },
+  "ancient": {
+    "en": "very old",
+    "pt-BR": "antigo",
+    "es": "antiguo"
+  },
+  "angry": {
+    "en": "feeling anger",
+    "pt-BR": "com raiva",
+    "es": "enojado"
+  },
+  "annual": {
+    "en": "happening every year",
+    "pt-BR": "anual",
+    "es": "anual"
+  },
+  "apathy": {
+    "en": "lack of interest",
+    "pt-BR": "apatia; falta de interesse",
+    "es": "apatía; falta de interés"
+  },
+  "argue": {
+    "en": "disagree in words",
+    "pt-BR": "discutir",
+    "es": "discutir"
+  },
+  "ask": {
+    "en": "request information or action",
+    "pt-BR": "perguntar; pedir",
+    "es": "preguntar; pedir"
+  },
+  "assist": {
+    "en": "give help",
+    "pt-BR": "ajudar",
+    "es": "ayudar"
+  },
+  "awake": {
+    "en": "not asleep",
+    "pt-BR": "acordado",
+    "es": "despierto"
+  },
+  "begin": {
+    "en": "start something",
+    "pt-BR": "começar",
+    "es": "empezar"
+  },
+  "beneficial": {
+    "en": "having a good effect",
+    "pt-BR": "benéfico",
+    "es": "beneficioso"
+  },
+  "biased": {
+    "en": "unfairly favoring one side",
+    "pt-BR": "parcial; tendencioso",
+    "es": "parcial; sesgado"
+  },
+  "block": {
+    "en": "prevent movement",
+    "pt-BR": "bloquear",
+    "es": "bloquear"
+  },
+  "break": {
+    "en": "separate into pieces",
+    "pt-BR": "quebrar",
+    "es": "romper"
+  },
+  "bright": {
+    "en": "giving much light",
+    "pt-BR": "brilhante; luminoso",
+    "es": "brillante; luminoso"
+  },
+  "calm": {
+    "en": "peaceful; without agitation",
+    "pt-BR": "calmo",
+    "es": "tranquilo"
+  },
+  "certain": {
+    "en": "sure; without doubt",
+    "pt-BR": "certo; seguro",
+    "es": "seguro; cierto"
+  },
+  "cheap": {
+    "en": "costing little",
+    "pt-BR": "barato",
+    "es": "barato"
+  },
+  "cheerful": {
+    "en": "happy and positive",
+    "pt-BR": "alegre",
+    "es": "alegre"
+  },
+  "clumsy": {
+    "en": "moving without skill",
+    "pt-BR": "desajeitado",
+    "es": "torpe"
+  },
+  "cold": {
+    "en": "having a low temperature",
+    "pt-BR": "frio",
+    "es": "frío"
+  },
+  "common": {
+    "en": "seen often; widespread",
+    "pt-BR": "comum",
+    "es": "común"
+  },
+  "compete": {
+    "en": "try to win against others",
+    "pt-BR": "competir",
+    "es": "competir"
+  },
+  "concentrate": {
+    "en": "bring together; focus attention",
+    "pt-BR": "concentrar",
+    "es": "concentrar"
+  },
+  "confident": {
+    "en": "sure of your ability",
+    "pt-BR": "confiante",
+    "es": "confiado"
+  },
+  "confused": {
+    "en": "unable to think clearly",
+    "pt-BR": "confuso",
+    "es": "confundido"
+  },
+  "confusing": {
+    "en": "difficult to understand",
+    "pt-BR": "que causa confusão",
+    "es": "confuso; que confunde"
+  },
+  "consent": {
+    "en": "permission; agreement",
+    "pt-BR": "consentimento",
+    "es": "consentimiento"
+  },
+  "copy": {
+    "en": "make a duplicate",
+    "pt-BR": "copiar",
+    "es": "copiar"
+  },
+  "create": {
+    "en": "make something new",
+    "pt-BR": "criar",
+    "es": "crear"
+  },
+  "crowded": {
+    "en": "full of people or things",
+    "pt-BR": "lotado",
+    "es": "abarrotado"
+  },
+  "cruel": {
+    "en": "causing pain without caring",
+    "pt-BR": "cruel",
+    "es": "cruel"
+  },
+  "current": {
+    "en": "belonging to the present",
+    "pt-BR": "atual",
+    "es": "actual"
+  },
+  "dark": {
+    "en": "having little light",
+    "pt-BR": "escuro",
+    "es": "oscuro"
+  },
+  "decline": {
+    "en": "become less; refuse",
+    "pt-BR": "diminuir; recusar",
+    "es": "disminuir; rechazar"
+  },
+  "delay": {
+    "en": "make something happen later",
+    "pt-BR": "adiar; atraso",
+    "es": "retrasar; demora"
+  },
+  "destroy": {
+    "en": "damage completely",
+    "pt-BR": "destruir",
+    "es": "destruir"
+  },
+  "dismiss": {
+    "en": "send away; reject",
+    "pt-BR": "dispensar; rejeitar",
+    "es": "despedir; descartar"
+  },
+  "display": {
+    "en": "show something",
+    "pt-BR": "exibir",
+    "es": "mostrar"
+  },
+  "dispute": {
+    "en": "a disagreement; challenge",
+    "pt-BR": "disputa; contestar",
+    "es": "disputa; cuestionar"
+  },
+  "distant": {
+    "en": "far away",
+    "pt-BR": "distante",
+    "es": "lejano"
+  },
+  "divide": {
+    "en": "separate into parts",
+    "pt-BR": "dividir",
+    "es": "dividir"
+  },
+  "downplay": {
+    "en": "make something seem less important",
+    "pt-BR": "minimizar a importância",
+    "es": "minimizar la importancia"
+  },
+  "eager": {
+    "en": "very keen to do something",
+    "pt-BR": "ansioso; entusiasmado",
+    "es": "deseoso; entusiasmado"
+  },
+  "easy": {
+    "en": "not difficult",
+    "pt-BR": "fácil",
+    "es": "fácil"
+  },
+  "erase": {
+    "en": "remove writing or information",
+    "pt-BR": "apagar",
+    "es": "borrar"
+  },
+  "exact": {
+    "en": "completely correct",
+    "pt-BR": "exato",
+    "es": "exacto"
+  },
+  "expert": {
+    "en": "a highly skilled person",
+    "pt-BR": "especialista",
+    "es": "experto"
+  },
+  "extra": {
+    "en": "more than usual",
+    "pt-BR": "extra; adicional",
+    "es": "extra; adicional"
+  },
+  "fade": {
+    "en": "gradually lose strength or color",
+    "pt-BR": "desbotar; desaparecer aos poucos",
+    "es": "desvanecerse"
+  },
+  "fear": {
+    "en": "feeling of being afraid",
+    "pt-BR": "medo",
+    "es": "miedo"
+  },
+  "fertile": {
+    "en": "able to produce growth",
+    "pt-BR": "fértil",
+    "es": "fértil"
+  },
+  "fill": {
+    "en": "make full",
+    "pt-BR": "encher",
+    "es": "llenar"
+  },
+  "final": {
+    "en": "last; settled",
+    "pt-BR": "final; definitivo",
+    "es": "final; definitivo"
+  },
+  "finished": {
+    "en": "completed",
+    "pt-BR": "terminado",
+    "es": "terminado"
+  },
+  "fixed": {
+    "en": "not changing or moving",
+    "pt-BR": "fixo",
+    "es": "fijo"
+  },
+  "follow": {
+    "en": "go after; obey",
+    "pt-BR": "seguir",
+    "es": "seguir"
+  },
+  "forced": {
+    "en": "done under pressure",
+    "pt-BR": "forçado",
+    "es": "forzado"
+  },
+  "frail": {
+    "en": "weak and easily damaged",
+    "pt-BR": "frágil; debilitado",
+    "es": "frágil; débil"
+  },
+  "full": {
+    "en": "containing as much as possible",
+    "pt-BR": "cheio",
+    "es": "lleno"
+  },
+  "gather": {
+    "en": "bring together",
+    "pt-BR": "reunir",
+    "es": "reunir"
+  },
+  "gift": {
+    "en": "something given freely",
+    "pt-BR": "presente",
+    "es": "regalo"
+  },
+  "gradual": {
+    "en": "happening little by little",
+    "pt-BR": "gradual",
+    "es": "gradual"
+  },
+  "greater": {
+    "en": "larger in amount or importance",
+    "pt-BR": "maior",
+    "es": "mayor"
+  },
+  "grow": {
+    "en": "become larger",
+    "pt-BR": "crescer",
+    "es": "crecer"
+  },
+  "growing": {
+    "en": "becoming larger",
+    "pt-BR": "crescendo",
+    "es": "creciendo"
+  },
+  "guess": {
+    "en": "answer without being sure",
+    "pt-BR": "adivinhar; palpite",
+    "es": "adivinar; suposición"
+  },
+  "handy": {
+    "en": "useful and easy to handle",
+    "pt-BR": "prático; útil",
+    "es": "práctico; útil"
+  },
+  "heavy": {
+    "en": "having much weight",
+    "pt-BR": "pesado",
+    "es": "pesado"
+  },
+  "help": {
+    "en": "make a task easier for someone",
+    "pt-BR": "ajudar",
+    "es": "ayudar"
+  },
+  "helpful": {
+    "en": "giving useful assistance",
+    "pt-BR": "útil; prestativo",
+    "es": "útil; servicial"
+  },
+  "hidden": {
+    "en": "kept out of sight",
+    "pt-BR": "escondido",
+    "es": "oculto"
+  },
+  "huge": {
+    "en": "very large",
+    "pt-BR": "enorme",
+    "es": "enorme"
+  },
+  "hurried": {
+    "en": "done in a rush",
+    "pt-BR": "apressado",
+    "es": "apresurado"
+  },
+  "identical": {
+    "en": "exactly the same",
+    "pt-BR": "idêntico",
+    "es": "idéntico"
+  },
+  "ignore": {
+    "en": "pay no attention to",
+    "pt-BR": "ignorar",
+    "es": "ignorar"
+  },
+  "implied": {
+    "en": "suggested without being said directly",
+    "pt-BR": "implícito",
+    "es": "implícito"
+  },
+  "inarticulate": {
+    "en": "unable to express ideas clearly",
+    "pt-BR": "com dificuldade de se expressar",
+    "es": "incapaz de expresarse claramente"
+  },
+  "included": {
+    "en": "contained as part of a group",
+    "pt-BR": "incluído",
+    "es": "incluido"
+  },
+  "inept": {
+    "en": "lacking skill",
+    "pt-BR": "inepto; sem habilidade",
+    "es": "inepto; sin habilidad"
+  },
+  "insufficient": {
+    "en": "not enough",
+    "pt-BR": "insuficiente",
+    "es": "insuficiente"
+  },
+  "invite": {
+    "en": "ask someone to come or take part",
+    "pt-BR": "convidar",
+    "es": "invitar"
+  },
+  "join": {
+    "en": "connect; become part of",
+    "pt-BR": "juntar; participar",
+    "es": "unir; participar"
+  },
+  "joint": {
+    "en": "shared; connected",
+    "pt-BR": "conjunto; unido",
+    "es": "conjunto; unido"
+  },
+  "keep": {
+    "en": "retain; continue to have",
+    "pt-BR": "guardar; manter",
+    "es": "guardar; mantener"
+  },
+  "late": {
+    "en": "after the expected time",
+    "pt-BR": "atrasado",
+    "es": "tarde; atrasado"
+  },
+  "lazy": {
+    "en": "unwilling to work",
+    "pt-BR": "preguiçoso",
+    "es": "perezoso"
+  },
+  "leader": {
+    "en": "person who guides others",
+    "pt-BR": "líder",
+    "es": "líder"
+  },
+  "legal": {
+    "en": "allowed by law",
+    "pt-BR": "legal; permitido por lei",
+    "es": "legal; permitido por ley"
+  },
+  "lengthy": {
+    "en": "lasting a long time",
+    "pt-BR": "longo; demorado",
+    "es": "largo; prolongado"
+  },
+  "light": {
+    "en": "not heavy",
+    "pt-BR": "leve",
+    "es": "ligero"
+  },
+  "limited": {
+    "en": "restricted in amount",
+    "pt-BR": "limitado",
+    "es": "limitado"
+  },
+  "lose": {
+    "en": "stop having; fail to win",
+    "pt-BR": "perder",
+    "es": "perder"
+  },
+  "loud": {
+    "en": "making a strong sound",
+    "pt-BR": "barulhento; alto",
+    "es": "ruidoso; fuerte"
+  },
+  "measure": {
+    "en": "find size or amount",
+    "pt-BR": "medir",
+    "es": "medir"
+  },
+  "mild": {
+    "en": "not strong or severe",
+    "pt-BR": "suave; leve",
+    "es": "suave; leve"
+  },
+  "minor": {
+    "en": "less important or small",
+    "pt-BR": "menor; secundário",
+    "es": "menor; secundario"
+  },
+  "miserable": {
+    "en": "very unhappy",
+    "pt-BR": "muito infeliz",
+    "es": "muy infeliz"
+  },
+  "mix": {
+    "en": "combine things",
+    "pt-BR": "misturar",
+    "es": "mezclar"
+  },
+  "narrow": {
+    "en": "not wide",
+    "pt-BR": "estreito",
+    "es": "estrecho"
+  },
+  "new": {
+    "en": "recently made or discovered",
+    "pt-BR": "novo",
+    "es": "nuevo"
+  },
+  "noise": {
+    "en": "unwanted or loud sound",
+    "pt-BR": "barulho",
+    "es": "ruido"
+  },
+  "noisy": {
+    "en": "making much noise",
+    "pt-BR": "barulhento",
+    "es": "ruidoso"
+  },
+  "normal": {
+    "en": "usual or expected",
+    "pt-BR": "normal",
+    "es": "normal"
+  },
+  "occupied": {
+    "en": "being used; not vacant",
+    "pt-BR": "ocupado",
+    "es": "ocupado"
+  },
+  "open": {
+    "en": "not closed",
+    "pt-BR": "aberto",
+    "es": "abierto"
+  },
+  "optional": {
+    "en": "not required",
+    "pt-BR": "opcional",
+    "es": "opcional"
+  },
+  "ordinary": {
+    "en": "usual; not special",
+    "pt-BR": "comum; habitual",
+    "es": "común; habitual"
+  },
+  "partial": {
+    "en": "not complete",
+    "pt-BR": "parcial; incompleto",
+    "es": "parcial; incompleto"
+  },
+  "path": {
+    "en": "route or track",
+    "pt-BR": "caminho",
+    "es": "camino"
+  },
+  "plain": {
+    "en": "simple; without decoration",
+    "pt-BR": "simples; sem enfeites",
+    "es": "sencillo; sin adornos"
+  },
+  "planned": {
+    "en": "decided in advance",
+    "pt-BR": "planejado",
+    "es": "planificado"
+  },
+  "pleasant": {
+    "en": "enjoyable; agreeable",
+    "pt-BR": "agradável",
+    "es": "agradable"
+  },
+  "polite": {
+    "en": "showing good manners",
+    "pt-BR": "educado; cortês",
+    "es": "educado; cortés"
+  },
+  "poor": {
+    "en": "having little money",
+    "pt-BR": "pobre",
+    "es": "pobre"
+  },
+  "praise": {
+    "en": "express approval",
+    "pt-BR": "elogiar",
+    "es": "elogiar"
+  },
+  "prevent": {
+    "en": "stop something from happening",
+    "pt-BR": "impedir; prevenir",
+    "es": "impedir; prevenir"
+  },
+  "purify": {
+    "en": "remove impurities",
+    "pt-BR": "purificar",
+    "es": "purificar"
+  },
+  "quick": {
+    "en": "taking little time",
+    "pt-BR": "rápido",
+    "es": "rápido"
+  },
+  "quiet": {
+    "en": "making little noise",
+    "pt-BR": "silencioso",
+    "es": "silencioso"
+  },
+  "quit": {
+    "en": "stop doing something",
+    "pt-BR": "parar; desistir",
+    "es": "dejar; abandonar"
+  },
+  "rapid": {
+    "en": "very fast",
+    "pt-BR": "rápido",
+    "es": "rápido"
+  },
+  "reckless": {
+    "en": "acting without considering danger",
+    "pt-BR": "imprudente",
+    "es": "imprudente"
+  },
+  "refuse": {
+    "en": "say no; decline",
+    "pt-BR": "recusar",
+    "es": "rechazar"
+  },
+  "repeat": {
+    "en": "do or say again",
+    "pt-BR": "repetir",
+    "es": "repetir"
+  },
+  "replenish": {
+    "en": "fill a supply again",
+    "pt-BR": "reabastecer",
+    "es": "reponer"
+  },
+  "rest": {
+    "en": "relax; stop working",
+    "pt-BR": "descansar",
+    "es": "descansar"
+  },
+  "reveal": {
+    "en": "make known or visible",
+    "pt-BR": "revelar",
+    "es": "revelar"
+  },
+  "reverse": {
+    "en": "opposite direction or order",
+    "pt-BR": "inverso; inverter",
+    "es": "inverso; invertir"
+  },
+  "rise": {
+    "en": "move upward; increase",
+    "pt-BR": "subir; aumentar",
+    "es": "subir; aumentar"
+  },
+  "rude": {
+    "en": "impolite",
+    "pt-BR": "grosseiro",
+    "es": "grosero"
+  },
+  "rural": {
+    "en": "relating to the countryside",
+    "pt-BR": "rural",
+    "es": "rural"
+  },
+  "safe": {
+    "en": "free from danger",
+    "pt-BR": "seguro",
+    "es": "seguro"
+  },
+  "selfish": {
+    "en": "caring only about yourself",
+    "pt-BR": "egoísta",
+    "es": "egoísta"
+  },
+  "shared": {
+    "en": "used or held together",
+    "pt-BR": "compartilhado",
+    "es": "compartido"
+  },
+  "short": {
+    "en": "small in length or duration",
+    "pt-BR": "curto",
+    "es": "corto"
+  },
+  "shy": {
+    "en": "nervous around others",
+    "pt-BR": "tímido",
+    "es": "tímido"
+  },
+  "silent": {
+    "en": "making no sound",
+    "pt-BR": "silencioso",
+    "es": "silencioso"
+  },
+  "simple": {
+    "en": "easy; not complex",
+    "pt-BR": "simples",
+    "es": "sencillo"
+  },
+  "single": {
+    "en": "only one",
+    "pt-BR": "único; um só",
+    "es": "único; uno solo"
+  },
+  "sleepy": {
+    "en": "ready to fall asleep",
+    "pt-BR": "sonolento",
+    "es": "somnoliento"
+  },
+  "slight": {
+    "en": "small in amount",
+    "pt-BR": "pequeno; leve",
+    "es": "pequeño; leve"
+  },
+  "slow": {
+    "en": "not fast",
+    "pt-BR": "lento",
+    "es": "lento"
+  },
+  "soft": {
+    "en": "not hard",
+    "pt-BR": "macio",
+    "es": "blando"
+  },
+  "solution": {
+    "en": "answer to a problem",
+    "pt-BR": "solução",
+    "es": "solución"
+  },
+  "soothe": {
+    "en": "make calm; relieve pain",
+    "pt-BR": "acalmar; aliviar",
+    "es": "calmar; aliviar"
+  },
+  "sort": {
+    "en": "arrange into groups",
+    "pt-BR": "classificar; organizar",
+    "es": "clasificar; ordenar"
+  },
+  "spend": {
+    "en": "use money or time",
+    "pt-BR": "gastar",
+    "es": "gastar"
+  },
+  "steal": {
+    "en": "take without permission",
+    "pt-BR": "roubar",
+    "es": "robar"
+  },
+  "support": {
+    "en": "help; hold up",
+    "pt-BR": "apoiar; sustentar",
+    "es": "apoyar; sostener"
+  },
+  "temporary": {
+    "en": "lasting a limited time",
+    "pt-BR": "temporário",
+    "es": "temporal"
+  },
+  "timid": {
+    "en": "lacking courage or confidence",
+    "pt-BR": "tímido; receoso",
+    "es": "tímido; temeroso"
+  },
+  "tiny": {
+    "en": "very small",
+    "pt-BR": "minúsculo",
+    "es": "diminuto"
+  },
+  "tool": {
+    "en": "instrument for doing a task",
+    "pt-BR": "ferramenta",
+    "es": "herramienta"
+  },
+  "true": {
+    "en": "correct; real",
+    "pt-BR": "verdadeiro",
+    "es": "verdadero"
+  },
+  "trusting": {
+    "en": "ready to believe others",
+    "pt-BR": "confiante nas pessoas",
+    "es": "confiado en los demás"
+  },
+  "uncertain": {
+    "en": "not sure",
+    "pt-BR": "incerto",
+    "es": "incierto"
+  },
+  "unknown": {
+    "en": "not known",
+    "pt-BR": "desconhecido",
+    "es": "desconocido"
+  },
+  "unlike": {
+    "en": "different from",
+    "pt-BR": "diferente de",
+    "es": "diferente de"
+  },
+  "unusual": {
+    "en": "not common",
+    "pt-BR": "incomum",
+    "es": "inusual"
+  },
+  "useful": {
+    "en": "serving a practical purpose",
+    "pt-BR": "útil",
+    "es": "útil"
+  },
+  "vague": {
+    "en": "not clear or precise",
+    "pt-BR": "vago; impreciso",
+    "es": "vago; impreciso"
+  },
+  "waste": {
+    "en": "use carelessly",
+    "pt-BR": "desperdiçar",
+    "es": "desperdiciar"
+  },
+  "welcoming": {
+    "en": "friendly to new arrivals",
+    "pt-BR": "acolhedor",
+    "es": "acogedor"
+  },
+  "wet": {
+    "en": "covered with water",
+    "pt-BR": "molhado",
+    "es": "mojado"
+  },
+  "tree": {
+    "en": "a large plant with a woody trunk",
+    "pt-BR": "árvore",
+    "es": "árbol"
+  },
+  "wood": {
+    "en": "the hard material inside trees",
+    "pt-BR": "madeira",
+    "es": "madera"
+  },
+  "steel": {
+    "en": "a strong alloy made mainly from iron",
+    "pt-BR": "aço",
+    "es": "acero"
+  },
+  "iron": {
+    "en": "a metallic element",
+    "pt-BR": "ferro",
+    "es": "hierro"
+  },
+  "wool": {
+    "en": "the soft hair of sheep",
+    "pt-BR": "lã",
+    "es": "lana"
+  },
+  "sheep": {
+    "en": "an animal raised for wool",
+    "pt-BR": "ovelha",
+    "es": "oveja"
+  }
+}
